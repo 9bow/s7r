@@ -108,6 +108,20 @@ private struct TestProcessor: FileProcessor {
     #expect(blocks.allSatisfy { $0.contains("hello") && $0.split(separator: "\n").count == 4 })
 }
 
+@Test func timedExportsRejectPagesWithoutMillisecondDuration() throws {
+    var settings = Settings(); settings.lineLength = 8; settings.maxLines = 1
+    for (end, source) in [(0.0004, "hello"), (0.001, "a long caption needs several pages")] {
+        let transcript = Transcript(input: "test.wav", duration: end, language: .en, segments: [Segment(id: "s1", start: 0, end: end, source: source)])
+        for format in [OutputFormat.srt, .smi] {
+            #expect(throws: S7RError.self) { try Exporter.render(transcript, format: format, settings: settings) }
+        }
+        let text = String(decoding: try Exporter.render(transcript, format: .txt, settings: settings), as: UTF8.self)
+        #expect(text.filter { !$0.isWhitespace } == source.filter { !$0.isWhitespace })
+        let json = try JSONDecoder().decode(Transcript.self, from: Exporter.render(transcript, format: .json, settings: settings))
+        #expect(json.segments[0].source == source)
+    }
+}
+
 @Test func translationRejectsAddedTimeOfDay() {
     #expect(TranslationFidelity.addsDayPeriod(source: "The meeting starts at nine.", translation: "회의는 오전 아홉 시에 시작합니다."))
     #expect(!TranslationFidelity.addsDayPeriod(source: "The meeting starts in the morning.", translation: "회의는 오전에 시작합니다."))

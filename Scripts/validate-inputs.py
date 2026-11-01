@@ -24,7 +24,7 @@ for name,args,expected in [
  ('invalid-width',['transcribe','--line-length','0','anything.wav'],2),
  ('nemotron-auto',['transcribe','--source','auto','anything.wav'],2),
  ('missing-model',['transcribe','--models',str(ROOT/'.validation/missing-models'),str(ROOT/'.validation/media/audio sample.wav')],1),
- ('apple-missing-assets',['transcribe','--asr','apple','--source','en',str(ROOT/'.validation/media/audio sample.wav')],1)]:
+ ('missing-whisper-model',['transcribe','--asr','whisper','--models',str(ROOT/'.validation/missing-models'),str(ROOT/'.validation/media/audio sample.wav')],1)]:
     result=subprocess.run([str(BIN)]+args,cwd=ROOT,capture_output=True,timeout=30)
     assert result.returncode==expected,(name,result.returncode)
     report[name]={'exitCode':result.returncode,'stdout':result.stdout.decode(),'stderr':result.stderr.decode()}

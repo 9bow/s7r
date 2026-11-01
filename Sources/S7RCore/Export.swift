@@ -48,6 +48,13 @@ public enum Exporter {
             return try encoder.encode(transcript)
         }
         let cues = cues(transcript, settings)
+        if format == .srt || format == .smi {
+            for cue in cues {
+                guard (cue.end * 1000).rounded() > (cue.start * 1000).rounded() else {
+                    throw S7RError("A subtitle page is shorter than one millisecond after rounding. Increase the line length or maximum lines, or export TXT or JSON.")
+                }
+            }
+        }
         let text: String
         switch format {
         case .txt:

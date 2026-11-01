@@ -8,10 +8,10 @@
       "error" : "Translation is incomplete.",
       "input" : "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
       "outputs" : [
-        "/Users/reserve/Workspace/s7r/.validation/partial/English sample-2.json",
-        "/Users/reserve/Workspace/s7r/.validation/partial/English sample-2.srt"
+        "/Users/reserve/Workspace/s7r/.validation/partial/English sample-3.json",
+        "/Users/reserve/Workspace/s7r/.validation/partial/English sample-3.srt"
       ],
-      "seconds" : 1.076516032218933,
+      "seconds" : 0.7970860004425049,
       "state" : "partial",
       "warnings" : [
         "Translation failed for 1 segments. Original text is preserved in JSON and source output. Translation-only output is incomplete."

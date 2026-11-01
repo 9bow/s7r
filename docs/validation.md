@@ -38,7 +38,8 @@ The final batch rerun first failed inside that sandbox, then passed with local s
 
 ## Core, input, and output
 
-The final test run passed 12 Swift Testing tests. See `evidence/unit-tests-final.log`.
+The initial test run passed 12 Swift Testing tests. See `evidence/unit-tests-final.log`.
+The follow-up passed 14 tests, including real Apple Translation cancellation and retry. Read [the current audit](improvement-validation.md).
 Tests cover time ordering, wrapping, escaping, bilingual pages, partial translation, configuration, collisions, and cancellation.
 They also cover recursion, duplicate paths, invalid arguments, missing models, and preservation of file times.
 

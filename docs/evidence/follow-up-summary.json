@@ -1,0 +1,26 @@
+{
+  "coreAndAppleIntegrationTestsPassed": 14,
+  "cliOptionCasesPassed": 11,
+  "appleTranslationCancellationSeconds": 5.1975250244140625e-05,
+  "appleTranslationRetrySucceeded": true,
+  "oldSessionReuseRegression": "TranslationError.Cause.alreadyCancelled",
+  "nemotronRequiredLanguages": [
+    "ko",
+    "en",
+    "ja",
+    "zh"
+  ],
+  "nemotronNormalizedFixtureReferencesMatch": true,
+  "batch": {
+    "mixedBatch": {
+      "success": 2,
+      "failed": 2
+    },
+    "collisionPreserved": true,
+    "translationFailurePreservedSource": true,
+    "cancellationExitCode": 130,
+    "cancellationSeconds": 0.4408756666816771
+  },
+  "gui": "blocked: Mac locked; Finder drag remains unverified",
+  "goalComplete": false
+}

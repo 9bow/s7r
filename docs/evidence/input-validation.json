@@ -8,9 +8,9 @@
       {
         "input": "/Users/reserve/Workspace/s7r/.validation/input-directory/audio.wav",
         "outputs": [
-          "/Users/reserve/Workspace/s7r/.validation/directory-output/audio.json"
+          "/Users/reserve/Workspace/s7r/.validation/directory-output/audio-3.json"
         ],
-        "seconds": 1.2083491086959839,
+        "seconds": 1.9460539817810059,
         "state": "succeeded",
         "warnings": []
       },
@@ -18,7 +18,7 @@
         "error": "Cannot Open",
         "input": "/Users/reserve/Workspace/s7r/.validation/input-directory/broken.mp4",
         "outputs": [],
-        "seconds": 0.005576968193054199,
+        "seconds": 0.00704801082611084,
         "state": "failed",
         "warnings": []
       }
@@ -34,9 +34,9 @@
       {
         "input": "/Users/reserve/Workspace/s7r/.validation/input-directory/audio.wav",
         "outputs": [
-          "/Users/reserve/Workspace/s7r/.validation/directory-output/audio-2.json"
+          "/Users/reserve/Workspace/s7r/.validation/directory-output/audio-4.json"
         ],
-        "seconds": 0.8302879333496094,
+        "seconds": 0.874224066734314,
         "state": "succeeded",
         "warnings": []
       },
@@ -44,16 +44,16 @@
         "error": "Cannot Open",
         "input": "/Users/reserve/Workspace/s7r/.validation/input-directory/broken.mp4",
         "outputs": [],
-        "seconds": 0.0016570091247558594,
+        "seconds": 0.001968979835510254,
         "state": "failed",
         "warnings": []
       },
       {
         "input": "/Users/reserve/Workspace/s7r/.validation/input-directory/sub/video.mp4",
         "outputs": [
-          "/Users/reserve/Workspace/s7r/.validation/directory-output/video.json"
+          "/Users/reserve/Workspace/s7r/.validation/directory-output/video-2.json"
         ],
-        "seconds": 0.40821290016174316,
+        "seconds": 0.41877198219299316,
         "state": "succeeded",
         "warnings": []
       }
@@ -77,12 +77,12 @@
   },
   "missing-model": {
     "exitCode": 1,
-    "stdout": "{\n  \"cancelled\" : false,\n  \"cancelledCount\" : 0,\n  \"exitCode\" : 1,\n  \"failed\" : 1,\n  \"jobs\" : [\n    {\n      \"error\" : \"Model nemotron is missing or incomplete at /Users/reserve/Workspace/s7r/.validation/missing-models. Select Install in the GUI or use `s7r install-model nemotron --accept-license`. No download started.\",\n      \"input\" : \"/Users/reserve/Workspace/s7r/.validation/media/audio sample.wav\",\n      \"outputs\" : [\n\n      ],\n      \"seconds\" : 0.003346085548400879,\n      \"state\" : \"failed\",\n      \"warnings\" : [\n\n      ]\n    }\n  ],\n  \"succeeded\" : 0\n}\n",
-    "stderr": "{\"message\":\"Model nemotron is missing or incomplete at \\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/missing-models. Select Install in the GUI or use `s7r install-model nemotron --accept-license`. No download started.\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"state\":\"failed\",\"fraction\":1}\n"
+    "stdout": "{\n  \"cancelled\" : false,\n  \"cancelledCount\" : 0,\n  \"exitCode\" : 1,\n  \"failed\" : 1,\n  \"jobs\" : [\n    {\n      \"error\" : \"Model nemotron is missing or incomplete at /Users/reserve/Workspace/s7r/.validation/missing-models. Select Install in the GUI or use `s7r install-model nemotron --accept-license`. No download started.\",\n      \"input\" : \"/Users/reserve/Workspace/s7r/.validation/media/audio sample.wav\",\n      \"outputs\" : [\n\n      ],\n      \"seconds\" : 0.0046569108963012695,\n      \"state\" : \"failed\",\n      \"warnings\" : [\n\n      ]\n    }\n  ],\n  \"succeeded\" : 0\n}\n",
+    "stderr": "{\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"state\":\"failed\",\"message\":\"Model nemotron is missing or incomplete at \\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/missing-models. Select Install in the GUI or use `s7r install-model nemotron --accept-license`. No download started.\",\"fraction\":1}\n"
   },
-  "apple-missing-assets": {
+  "missing-whisper-model": {
     "exitCode": 1,
-    "stdout": "{\n  \"cancelled\" : false,\n  \"cancelledCount\" : 0,\n  \"exitCode\" : 1,\n  \"failed\" : 1,\n  \"jobs\" : [\n    {\n      \"error\" : \"Apple Speech assets are not installed for English. Use the GUI Install Speech button or `s7r install-speech --source en`. No download started.\",\n      \"input\" : \"/Users/reserve/Workspace/s7r/.validation/media/audio sample.wav\",\n      \"outputs\" : [\n\n      ],\n      \"seconds\" : 0.21542596817016602,\n      \"state\" : \"failed\",\n      \"warnings\" : [\n\n      ]\n    }\n  ],\n  \"succeeded\" : 0\n}\n",
-    "stderr": "{\"message\":\"\",\"state\":\"inspecting\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0}\n{\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0.015798193895066794,\"state\":\"decoding\",\"message\":\"\"}\n{\"state\":\"decoding\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0.04739458168520038,\"message\":\"\"}\n{\"state\":\"decoding\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0.07748867540254868,\"message\":\"\"}\n{\"state\":\"decoding\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0.10908506319268228,\"message\":\"\"}\n{\"state\":\"decoding\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0.14068145098281587,\"message\":\"\"}\n{\"fraction\":0.15,\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"state\":\"transcribing\",\"message\":\"Loading apple; keyword hints: 0\"}\n{\"message\":\"Apple Speech assets are not installed for English. Use the GUI Install Speech button or `s7r install-speech --source en`. No download started.\",\"state\":\"failed\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":1}\n"
+    "stdout": "{\n  \"cancelled\" : false,\n  \"cancelledCount\" : 0,\n  \"exitCode\" : 1,\n  \"failed\" : 1,\n  \"jobs\" : [\n    {\n      \"error\" : \"Model whisper is missing or incomplete at /Users/reserve/Workspace/s7r/.validation/missing-models. Select Install in the GUI or use `s7r install-model whisper --accept-license`. No download started.\",\n      \"input\" : \"/Users/reserve/Workspace/s7r/.validation/media/audio sample.wav\",\n      \"outputs\" : [\n\n      ],\n      \"seconds\" : 0.0031169652938842773,\n      \"state\" : \"failed\",\n      \"warnings\" : [\n\n      ]\n    }\n  ],\n  \"succeeded\" : 0\n}\n",
+    "stderr": "{\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":1,\"state\":\"failed\",\"message\":\"Model whisper is missing or incomplete at \\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/missing-models. Select Install in the GUI or use `s7r install-model whisper --accept-license`. No download started.\"}\n"
   }
 }

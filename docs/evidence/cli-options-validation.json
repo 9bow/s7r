@@ -1,0 +1,35 @@
+{
+  "literal-help": {
+    "exitCode": 0
+  },
+  "literal-short-help": {
+    "exitCode": 0
+  },
+  "literal-config": {
+    "exitCode": 0
+  },
+  "literal-separator": {
+    "exitCode": 0
+  },
+  "option-values": {
+    "exitCode": 0
+  },
+  "saved-keywords": {
+    "exitCode": 0
+  },
+  "replace-keywords": {
+    "exitCode": 0
+  },
+  "clear-keywords": {
+    "exitCode": 0
+  },
+  "help": {
+    "exitCode": 0
+  },
+  "missing-value": {
+    "exitCode": 2
+  },
+  "unknown-option": {
+    "exitCode": 2
+  }
+}

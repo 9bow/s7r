@@ -1,4 +1,8 @@
 {
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
   "jobs" : [
     {
       "input" : "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
@@ -6,11 +10,12 @@
         "/Users/reserve/Workspace/s7r/.validation/nemotron-en/English sample.json",
         "/Users/reserve/Workspace/s7r/.validation/nemotron-en/English sample.srt"
       ],
-      "seconds" : 10.23871099948883,
+      "seconds" : 1.6748489141464233,
       "state" : "succeeded",
       "warnings" : [
 
       ]
     }
-  ]
+  ],
+  "succeeded" : 1
 }

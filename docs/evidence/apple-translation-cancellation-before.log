@@ -1,0 +1,23 @@
+Building for debugging...
+[Computing dependencies]
+[Provisioning 2 / 66]
+[1 / 18] RealModule
+[1 / 46] MLXGuidedGeneration
+[2 / 13] S7RPlatform
+[6 / 17] S7RPlatform
+[9 / 19] S7RPlatform
+[14 / 15] s7r-product
+[16 / 18] S7RCoreTests-product
+[17 / 17] s7r-product
+[19 / 19] S7RApp-product
+warning: missing creator for mutated node: ('/Users/reserve/Workspace/s7r/.build/out/Products/Debug/mlx-swift_Cmlx.bundle/Contents/MacOS')
+Build complete! (3.32 sec)
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Test appleTranslationRecoversAfterCancellation() started.
+✘ Test appleTranslationRecoversAfterCancellation() recorded an issue at AppleTranslationTests.swift:6:2: Caught error: TranslationError(cause: Translation.TranslationError.Cause.alreadyCancelled, sourceLanguage: nil, targetLanguage: nil)
+✘ Test appleTranslationRecoversAfterCancellation() failed after 84.776 seconds with 1 issue.
+✘ Test run with 1 test in 0 suites failed after 84.776 seconds with 1 issue.
+Note: Some test targets reported failures:
+  - S7RCoreTests (Swift Testing)

@@ -57,21 +57,36 @@ struct Arguments {
     var paths: [String] = []
     var acceptLicense = false
     var saveConfiguration: String?
+    var showHelp = false
     init(_ arguments: [String]) throws {
         var args = arguments
         if let first = args.first, ["transcribe", "status", "install-model", "install-speech", "translate-text"].contains(first) { command = args.removeFirst() }
-        if let index = args.firstIndex(of: "--config") {
-            guard index + 1 < args.count else { throw S7RError("--config requires a file.") }
-            settings = try JSONDecoder().decode(Settings.self, from: Data(contentsOf: URL(fileURLWithPath: args[index + 1])))
-        }
+        var options: [(String, String?)] = []
         var index = 0
         while index < args.count {
             let option = args[index]
             index += 1
-            func value() throws -> String {
+            switch option {
+            case "--": paths += args[index...]; index = args.count
+            case "--help", "-h": showHelp = true
+            case "--recursive", "--no-recursive", "--overwrite", "--no-overwrite", "--accept-license": options.append((option, nil))
+            case "--config", "--save-config", "--source", "--target", "--chinese", "--asr", "--translator", "--display", "--order", "--format", "--line-length", "--max-lines", "--output", "--models", "--keywords", "--keywords-file":
                 guard index < args.count else { throw S7RError("\(option) requires a value.") }
-                defer { index += 1 }
-                return args[index]
+                options.append((option, args[index])); index += 1
+            default:
+                guard !option.hasPrefix("-") else { throw S7RError("Unknown option: \(option)") }
+                paths.append(option)
+            }
+        }
+        if showHelp { return }
+        if let file = options.last(where: { $0.0 == "--config" })?.1 {
+            settings = try JSONDecoder().decode(Settings.self, from: Data(contentsOf: URL(fileURLWithPath: file)))
+        }
+        var replacedKeywords = false
+        for (option, argument) in options {
+            func value() throws -> String {
+                guard let argument else { throw S7RError("\(option) requires a value.") }
+                return argument
             }
             func enumeration<T: RawRepresentable>(_ type: T.Type) throws -> T where T.RawValue == String {
                 let raw = try value()
@@ -79,7 +94,6 @@ struct Arguments {
                 return result
             }
             switch option {
-            case "--": paths += args[index...]; index = args.count
             case "--config": _ = try value()
             case "--save-config": saveConfiguration = try value()
             case "--source":
@@ -105,16 +119,16 @@ struct Arguments {
             case "--max-lines": guard let number = Int(try value()) else { throw S7RError("Invalid maximum lines.") }; settings.maxLines = number
             case "--output": settings.outputDirectory = try value()
             case "--models": settings.modelDirectory = try value()
-            case "--keywords": settings.keywords += Settings.vocabulary(try value())
-            case "--keywords-file": settings.keywords += Settings.vocabulary(try String(contentsOfFile: value(), encoding: .utf8))
+            case "--keywords", "--keywords-file":
+                if !replacedKeywords { settings.keywords = []; replacedKeywords = true }
+                let text = option == "--keywords" ? try value() : try String(contentsOfFile: value(), encoding: .utf8)
+                settings.keywords += Settings.vocabulary(text)
             case "--recursive": settings.recursive = true
             case "--no-recursive": settings.recursive = false
             case "--overwrite": settings.overwrite = true
             case "--no-overwrite": settings.overwrite = false
             case "--accept-license": acceptLicense = true
-            default:
-                guard !option.hasPrefix("-") else { throw S7RError("Unknown option: \(option)") }
-                paths.append(option)
+            default: break
             }
         }
         settings.keywords = Settings.vocabulary(settings.keywords.joined(separator: "\n"))
@@ -127,10 +141,11 @@ struct Arguments {
 @main struct CLI {
     static func main() async {
         let raw = Array(CommandLine.arguments.dropFirst())
-        if raw.contains("--help") || raw.contains("-h") || raw.isEmpty { print(usage); return }
+        if raw.isEmpty { print(usage); return }
         let arguments: Arguments
         do { arguments = try Arguments(raw) }
         catch { stderr(error.localizedDescription); exit(2) }
+        if arguments.showHelp { print(usage); return }
         let command = Task { () -> Int32 in
             do { return try await run(arguments) }
             catch is CancellationError { stderr("Cancelled."); return 130 }

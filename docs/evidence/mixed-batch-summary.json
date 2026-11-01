@@ -7,12 +7,12 @@
     {
       "input" : "/Users/reserve/Workspace/s7r/.validation/media/audio sample.wav",
       "outputs" : [
-        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-4.json",
-        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-4.smi",
-        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-4.srt",
-        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-4.txt"
+        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-6.json",
+        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-6.smi",
+        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-6.srt",
+        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-6.txt"
       ],
-      "seconds" : 2.16395902633667,
+      "seconds" : 1.657283902168274,
       "state" : "succeeded",
       "warnings" : [
 
@@ -21,12 +21,12 @@
     {
       "input" : "/Users/reserve/Workspace/s7r/.validation/media/playback demo.mp4",
       "outputs" : [
-        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-4.json",
-        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-4.smi",
-        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-4.srt",
-        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-4.txt"
+        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-6.json",
+        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-6.smi",
+        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-6.srt",
+        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-6.txt"
       ],
-      "seconds" : 0.5149799585342407,
+      "seconds" : 0.37953007221221924,
       "state" : "succeeded",
       "warnings" : [
 
@@ -38,7 +38,7 @@
       "outputs" : [
 
       ],
-      "seconds" : 0.005300998687744141,
+      "seconds" : 0.0037289857864379883,
       "state" : "failed",
       "warnings" : [
 
@@ -50,7 +50,7 @@
       "outputs" : [
 
       ],
-      "seconds" : 0.0015619993209838867,
+      "seconds" : 0.0007770061492919922,
       "state" : "failed",
       "warnings" : [
 

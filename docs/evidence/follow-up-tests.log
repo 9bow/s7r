@@ -1,0 +1,57 @@
+Building for debugging...
+[Computing dependencies]
+[Using on-disk description]
+[1 / 1]
+[1 / 112] yyjson
+[2 / 14] S7RPlatform
+[4 / 18]
+[6 / 18] S7RPlatform
+[12 / 25] S7RPlatform
+[13 / 26] s7r-product
+[20 / 25] S7RCoreTests-product
+[22 / 27] S7RCoreTests-product
+[26 / 30] s7r-product
+[30 / 35] S7RApp-product
+[32 / 35] S7RCoreTests-product
+[33 / 35] S7RCoreTests-product
+[35 / 35] s7r-product
+[37 / 37] S7RApp-product
+warning: missing creator for mutated node: ('/Users/reserve/Workspace/s7r/.build/out/Products/Debug/mlx-swift_Cmlx.bundle/Contents/MacOS')
+Build complete! (4.90 sec)
+Test Suite 'All tests' started at 2026-11-01 23:42:29.396.
+Test Suite 'All tests' passed at 2026-11-01 23:42:29.398.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.002) seconds
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Test batchIsolatesFailureAndCancellation() started.
+◇ Test missingModelsFailWithoutNetwork() started.
+◇ Test unicodeWrappingPreservesText() started.
+◇ Test appleTranslationRecoversAfterCancellation() started.
+◇ Test translationRejectsAddedTimeOfDay() started.
+◇ Test timedExportsRejectPagesWithoutMillisecondDuration() started.
+◇ Test captionOrderingAndTimeValidation() started.
+◇ Test bilingualEscapingAndFailurePreservation() started.
+◇ Test collisionAndOverwrite() started.
+◇ Test invalidSettings() started.
+◇ Test bilingualPagesRetainBothLanguages() started.
+◇ Test configurationRoundTripKeepsCaptionBytes() started.
+◇ Test wordsKeepOriginalFileTime() started.
+◇ Test directoryRecursionAndDuplicates() started.
+✔ Test captionOrderingAndTimeValidation() passed after 0.001 seconds.
+✔ Test bilingualPagesRetainBothLanguages() passed after 0.001 seconds.
+✔ Test invalidSettings() passed after 0.001 seconds.
+✔ Test wordsKeepOriginalFileTime() passed after 0.001 seconds.
+✔ Test translationRejectsAddedTimeOfDay() passed after 0.001 seconds.
+✔ Test batchIsolatesFailureAndCancellation() passed after 0.001 seconds.
+✔ Test configurationRoundTripKeepsCaptionBytes() passed after 0.001 seconds.
+✔ Test timedExportsRejectPagesWithoutMillisecondDuration() passed after 0.001 seconds.
+✔ Test bilingualEscapingAndFailurePreservation() passed after 0.001 seconds.
+✔ Test directoryRecursionAndDuplicates() passed after 0.002 seconds.
+✔ Test collisionAndOverwrite() passed after 0.002 seconds.
+✔ Test missingModelsFailWithoutNetwork() passed after 0.004 seconds.
+✔ Test unicodeWrappingPreservesText() passed after 0.009 seconds.
+Initial translation seconds: 2.0172619819641113
+Cancellation seconds: 5.1975250244140625e-05
+✔ Test appleTranslationRecoversAfterCancellation() passed after 74.967 seconds.
+✔ Test run with 14 tests in 0 suites passed after 74.968 seconds.

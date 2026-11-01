@@ -1,14 +1,14 @@
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0,"message":"","state":"inspecting"}
-{"message":"","fraction":0.015798193895066794,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"decoding"}
-{"state":"decoding","message":"","fraction":0.04739458168520038,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"decoding","message":"","fraction":0.07899096947533397,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"decoding","fraction":0.11058735726546756,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"decoding","message":"","fraction":0.14218374505560114,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"transcribing","fraction":0.15,"message":"Loading nemotron; keyword hints: 0","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"transcribing","message":"","fraction":0.2586294024611349,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"transcribing","message":"","fraction":0.3672588049222698,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"transcribing","message":"","fraction":0.47588820738340476,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"transcribing","message":"","fraction":0.5845176098445396,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"transcribing","message":"","fraction":0.6931470123056745,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"exporting","message":"","fraction":0.95,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
-{"state":"succeeded","message":"","fraction":1,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"message":"","fraction":0,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"inspecting"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"decoding","fraction":0.015798193895066794,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"decoding","fraction":0.04739458168520038,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"decoding","fraction":0.07748867540254868,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"decoding","fraction":0.10908506319268228,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"decoding","fraction":0.13920229879561907,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"transcribing","fraction":0.15,"message":"Loading nemotron; keyword hints: 0"}
+{"fraction":0.2586280056577086,"state":"transcribing","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"fraction":0.3672560113154173,"state":"transcribing","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"fraction":0.4758840169731259,"state":"transcribing","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"fraction":0.5845120226308346,"state":"transcribing","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"fraction":0.6931400282885433,"state":"transcribing","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"state":"exporting","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0.95,"message":""}
+{"state":"succeeded","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":1,"message":""}

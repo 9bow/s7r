@@ -1,34 +1,34 @@
-{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","state":"inspecting","fraction":0}
-{"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0.015798193895066794}
-{"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0.04739458168520038}
-{"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0.07899096947533397}
-{"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0.11058735726546756}
-{"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0.14218374505560114}
-{"state":"transcribing","message":"Loading nemotron; keyword hints: 0","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0.15}
-{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0.2586294024611349,"state":"transcribing"}
-{"fraction":0.3672588049222698,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","state":"transcribing"}
-{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0.47588820738340476,"state":"transcribing"}
-{"state":"transcribing","fraction":0.5845176098445396,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
-{"message":"","fraction":0.6931470123056745,"state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
-{"fraction":0.95,"message":"","state":"exporting","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
-{"fraction":1,"message":"","state":"succeeded","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
-{"fraction":0,"message":"","state":"inspecting","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
-{"message":"","state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","fraction":0.0063999999999999994}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","state":"decoding","message":"","fraction":0.032}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","state":"decoding","message":"","fraction":0.0574671875}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","state":"decoding","message":"","fraction":0.0830671875}
-{"fraction":0.15,"message":"Loading nemotron; keyword hints: 0","state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
-{"state":"transcribing","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","fraction":0.21718198301364633}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","state":"transcribing","message":"","fraction":0.2843639660272927}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","fraction":0.35154594904093905,"state":"transcribing","message":""}
-{"fraction":0.41872793205458536,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","message":"","state":"transcribing"}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","state":"transcribing","message":"","fraction":0.48590991506823167}
-{"message":"","state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","fraction":0.5530918980818781}
-{"message":"","state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","fraction":0.6202738810955244}
-{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","fraction":0.6874558641091708,"state":"transcribing"}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","state":"exporting","message":"","fraction":0.95}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","state":"succeeded","message":"","fraction":1}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/broken.mp4","state":"inspecting","message":"","fraction":0}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/broken.mp4","state":"failed","message":"Cannot Open","fraction":1}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/no audio.mov","state":"inspecting","message":"","fraction":0}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/no audio.mov","state":"failed","message":"The file has no readable audio track.","fraction":1}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0,"message":"","state":"inspecting"}
+{"fraction":0.015798193895066794,"message":"","state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"fraction":0.04739458168520038,"message":"","state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"fraction":0.07748867540254868,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","state":"decoding","message":""}
+{"fraction":0.10908506319268228,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","state":"decoding","message":""}
+{"state":"decoding","fraction":0.13920229879561907,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"transcribing","fraction":0.15,"message":"Loading nemotron; keyword hints: 0","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"transcribing","fraction":0.2586280056577086,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"transcribing","fraction":0.3672560113154173,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"transcribing","fraction":0.4758840169731259,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"transcribing","fraction":0.5845120226308346,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"transcribing","fraction":0.6931400282885433,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"exporting","fraction":0.95,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"succeeded","fraction":1,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"inspecting","fraction":0,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"fraction":0.0063999999999999994,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","state":"decoding","message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","fraction":0.032,"message":"","state":"decoding"}
+{"fraction":0.05759999999999999,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","state":"decoding","message":""}
+{"fraction":0.0832,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4","state":"decoding","message":""}
+{"state":"transcribing","fraction":0.15,"message":"Loading nemotron; keyword hints: 0","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"transcribing","fraction":0.21718198301364633,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"transcribing","fraction":0.2843639660272927,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"transcribing","fraction":0.35154594904093905,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"transcribing","fraction":0.41872793205458536,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"transcribing","fraction":0.48590991506823167,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"transcribing","fraction":0.5530918980818781,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"transcribing","fraction":0.6202738810955244,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"transcribing","fraction":0.6874558641091708,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"exporting","fraction":0.95,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"succeeded","fraction":1,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/playback demo.mp4"}
+{"state":"inspecting","fraction":0,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/broken.mp4"}
+{"state":"failed","fraction":1,"message":"Cannot Open","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/broken.mp4"}
+{"state":"inspecting","fraction":0,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/no audio.mov"}
+{"state":"failed","fraction":1,"message":"The file has no readable audio track.","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/no audio.mov"}

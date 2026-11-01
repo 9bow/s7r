@@ -1,14 +1,14 @@
-{"state":"inspecting","fraction":0,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff"}
-{"state":"decoding","fraction":0.015655067854897755,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff"}
-{"state":"decoding","fraction":0.04696520356469327,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff"}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","message":"","state":"decoding","fraction":0.07678665545381429}
-{"state":"decoding","fraction":0.1080967911636098,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff"}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","message":"","state":"decoding","fraction":0.1379411752810339}
-{"state":"transcribing","fraction":0.15,"message":"Loading nemotron; keyword hints: 0","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff"}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","message":"","state":"transcribing","fraction":0.2576438883296594}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"transcribing","fraction":0.36528777665931883,"message":""}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","message":"","state":"transcribing","fraction":0.4729316649889783}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"transcribing","fraction":0.5805755533186376,"message":""}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","message":"","state":"transcribing","fraction":0.6882194416482972}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","fraction":0,"message":"","state":"inspecting"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"decoding","fraction":0.015655067854897755,"message":""}
+{"state":"decoding","message":"","fraction":0.04696520356469327,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff"}
+{"state":"decoding","fraction":0.07678665545381429,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"decoding","fraction":0.1080967911636098,"message":""}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","fraction":0.1394069268734053,"state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"transcribing","fraction":0.15,"message":"Loading nemotron; keyword hints: 0"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"transcribing","fraction":0.2576452599388379,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"transcribing","fraction":0.36529051987767586,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"transcribing","fraction":0.4729357798165138,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"transcribing","fraction":0.5805810397553517,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"transcribing","fraction":0.6882262996941897,"message":""}
 {"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"exporting","fraction":0.95,"message":""}
 {"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/中文 sample.aiff","state":"succeeded","fraction":1,"message":""}

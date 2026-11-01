@@ -1,8 +1,12 @@
 {
   "en": {
     "exitCode": 0,
-    "seconds": 11.66997200017795,
+    "seconds": 3.321136166807264,
     "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
       "jobs": [
         {
           "input": "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
@@ -10,11 +14,12 @@
             "/Users/reserve/Workspace/s7r/.validation/nemotron-en/English sample.json",
             "/Users/reserve/Workspace/s7r/.validation/nemotron-en/English sample.srt"
           ],
-          "seconds": 10.23871099948883,
+          "seconds": 1.6748489141464233,
           "state": "succeeded",
           "warnings": []
         }
-      ]
+      ],
+      "succeeded": 1
     },
     "transcript": {
       "duration": 4.861315192743764,
@@ -34,8 +39,12 @@
   },
   "ko": {
     "exitCode": 0,
-    "seconds": 3.0519739580340683,
+    "seconds": 1.5951349171809852,
     "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
       "jobs": [
         {
           "input": "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
@@ -43,11 +52,12 @@
             "/Users/reserve/Workspace/s7r/.validation/nemotron-ko/한국어 예제.json",
             "/Users/reserve/Workspace/s7r/.validation/nemotron-ko/한국어 예제.srt"
           ],
-          "seconds": 2.8924050331115723,
+          "seconds": 1.5035209655761719,
           "state": "succeeded",
           "warnings": []
         }
-      ]
+      ],
+      "succeeded": 1
     },
     "transcript": {
       "duration": 5.814149659863945,
@@ -79,8 +89,12 @@
   },
   "ja": {
     "exitCode": 0,
-    "seconds": 1.9821439161896706,
+    "seconds": 3.3818448754027486,
     "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
       "jobs": [
         {
           "input": "/Users/reserve/Workspace/s7r/.validation/media/日本語 sample.aiff",
@@ -88,11 +102,12 @@
             "/Users/reserve/Workspace/s7r/.validation/nemotron-ja/日本語 sample.json",
             "/Users/reserve/Workspace/s7r/.validation/nemotron-ja/日本語 sample.srt"
           ],
-          "seconds": 1.0055060386657715,
+          "seconds": 3.16425096988678,
           "state": "succeeded",
           "warnings": []
         }
-      ]
+      ],
+      "succeeded": 1
     },
     "transcript": {
       "duration": 5.788616780045351,
@@ -118,8 +133,12 @@
   },
   "zh": {
     "exitCode": 0,
-    "seconds": 1.1016568327322602,
+    "seconds": 1.7432332918979228,
     "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
       "jobs": [
         {
           "input": "/Users/reserve/Workspace/s7r/.validation/media/中文 sample.aiff",
@@ -127,11 +146,12 @@
             "/Users/reserve/Workspace/s7r/.validation/nemotron-zh/中文 sample.json",
             "/Users/reserve/Workspace/s7r/.validation/nemotron-zh/中文 sample.srt"
           ],
-          "seconds": 1.010975956916809,
+          "seconds": 1.4172420501708984,
           "state": "succeeded",
           "warnings": []
         }
-      ]
+      ],
+      "succeeded": 1
     },
     "transcript": {
       "duration": 4.905759637188209,

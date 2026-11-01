@@ -115,6 +115,9 @@ The CLI prints one JSON summary to stdout and progress records to stderr.
 Exit codes are 0 for success, 1 for file or partial translation failure, 2 for invalid arguments, 70 for setup failure, and 130 for cancellation.
 Press Control-C to cancel a batch.
 
+CLI keyword arguments replace saved keywords. Repeated `--keywords` and `--keywords-file` arguments combine their terms and remove duplicates.
+Use `--keywords ''` to clear saved keywords. After `--`, all arguments are input paths or literal translation text.
+
 ## Subtitles and translation
 
 Video defaults to SRT. Audio defaults to TXT.
@@ -127,6 +130,7 @@ Bilingual cues show the source and translation in one cue. The order is configur
 The line limit counts grapheme clusters, including Chinese, Japanese, and Korean text.
 Very long captions are divided into timed pages. Translation page timing divides the source interval proportionally.
 That pagination is not word alignment for the translated speech.
+SRT and SMI exports reject pages whose duration rounds to zero milliseconds. Increase caption limits or select TXT or JSON for those segments.
 SMI uses a single language class to keep both languages visible together.
 VLC 3.0.24 rendered both languages and cleared the final cue in the recorded test.
 Read [the player test and its limits](docs/player-validation.md). Other players remain untested.
@@ -191,6 +195,7 @@ Hello, this is a local subtitle test.
 
 The JSON output keeps the corresponding source segment ID, source text, and translation separately.
 Read [the GUI procedure](docs/gui-validation.md), [media sources](docs/media-sources.md), and [optional feature status](docs/optional-features.md).
+Read [the follow-up audit](docs/improvement-validation.md) for current fixes, regression tests, and the remaining GUI gate.
 
 ## Release packaging
 

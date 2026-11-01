@@ -1,16 +1,16 @@
-{"message":"","state":"inspecting","fraction":0,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff"}
-{"message":"","state":"decoding","fraction":0.013267418265577136,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff"}
-{"message":"","state":"decoding","fraction":0.039802254796731405,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff"}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","message":"","fraction":0.0650754557286566,"state":"decoding"}
-{"message":"","state":"decoding","fraction":0.09161029225981086,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff"}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","message":"","fraction":0.11690292788646103,"state":"decoding"}
-{"message":"","state":"decoding","fraction":0.1434377644176153,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff"}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","message":"Loading nemotron; keyword hints: 0","fraction":0.15,"state":"transcribing"}
-{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"transcribing","fraction":0.24122420551362206,"message":""}
-{"state":"transcribing","fraction":0.33244841102724415,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff"}
-{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"transcribing","fraction":0.4236726165408663}
-{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","fraction":0.5148968220544883,"state":"transcribing"}
-{"state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","message":"","fraction":0.6061210275681105}
-{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","fraction":0.6973452330817326,"state":"transcribing"}
-{"fraction":0.95,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","message":"","state":"exporting"}
-{"fraction":1,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","message":"","state":"succeeded"}
+{"fraction":0,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"inspecting","message":""}
+{"fraction":0.013267418265577136,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"decoding"}
+{"state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","fraction":0.039802254796731405,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","fraction":0.0650754557286566,"message":"","state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"decoding","message":"","fraction":0.09161029225981086}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"decoding","fraction":0.11814512879096514}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"decoding","message":"","fraction":0.1446799653221194}
+{"fraction":0.15,"message":"Loading nemotron; keyword hints: 0","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"transcribing"}
+{"fraction":0.24122519059240222,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"transcribing"}
+{"fraction":0.3324503811848044,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"transcribing"}
+{"fraction":0.4236755717772067,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"transcribing"}
+{"fraction":0.5149007623696089,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"transcribing"}
+{"fraction":0.6061259529620111,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"transcribing"}
+{"fraction":0.6973511435544134,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"transcribing"}
+{"fraction":0.95,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"exporting"}
+{"fraction":1,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/日本語 sample.aiff","state":"succeeded"}

@@ -60,8 +60,27 @@ public actor AppleSpeechEngine {
 private final class TranslationSessionBox: @unchecked Sendable {
     let value: TranslationSession
     init(_ value: TranslationSession) { self.value = value }
-    func translate(_ text: String) async throws -> String { try await value.translate(text).targetText }
-    func cancel() { value.cancel() }
+    func translate(_ text: String) async throws -> String {
+        try Task.checkCancellation()
+        let (results, continuation) = AsyncThrowingStream<String, Error>.makeStream()
+        let operation = Task {
+            do {
+                try Task.checkCancellation()
+                continuation.yield(try await value.translate(text).targetText)
+                continuation.finish()
+            } catch { continuation.finish(throwing: error) }
+        }
+        return try await withTaskCancellationHandler {
+            var iterator = results.makeAsyncIterator()
+            guard let result = try await iterator.next() else { throw CancellationError() }
+            try Task.checkCancellation()
+            return result
+        } onCancel: {
+            continuation.finish(throwing: CancellationError())
+            operation.cancel()
+            self.value.cancel()
+        }
+    }
 }
 public actor AppleTranslator {
     private var session: TranslationSessionBox?
@@ -87,9 +106,15 @@ public actor AppleTranslator {
             preparedPair = pair
         }
         guard let session else { throw S7RError("Apple Translation session is unavailable.") }
-        let result = try await withTaskCancellationHandler {
-            try await session.translate(text)
-        } onCancel: { session.cancel() }
+        let result: String
+        do {
+            result = try await session.translate(text)
+            try Task.checkCancellation()
+        } catch {
+            self.session = nil
+            preparedPair = nil
+            throw error
+        }
         guard !result.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { throw S7RError("Apple Translation returned empty text.") }
         return result
     }

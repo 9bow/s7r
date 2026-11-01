@@ -1,4 +1,8 @@
 {
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
   "jobs" : [
     {
       "input" : "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
@@ -6,11 +10,12 @@
         "/Users/reserve/Workspace/s7r/.validation/nemotron-ko/한국어 예제.json",
         "/Users/reserve/Workspace/s7r/.validation/nemotron-ko/한국어 예제.srt"
       ],
-      "seconds" : 2.8924050331115723,
+      "seconds" : 1.5035209655761719,
       "state" : "succeeded",
       "warnings" : [
 
       ]
     }
-  ]
+  ],
+  "succeeded" : 1
 }
