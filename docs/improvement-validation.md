@@ -36,6 +36,8 @@ The final run passed 14 tests, including the real Apple cancellation test.
 The CLI option script passed 11 cases. Four real Nemotron transcripts matched their normalized reference sentences.
 Read `evidence/follow-up-tests.log`, `apple-translation-cancellation-before.log`, and `follow-up-summary.json` under `docs/evidence` for the raw results.
 The refreshed native capability query is in `evidence/follow-up-status.json`.
+The packaging script copied the current Debug executable and signed the updated app bundle. Its signature verification passed.
+No app process was active during replacement. Read `evidence/follow-up-app.json` for the executable hashes and source commit.
 
 ## Requirement evidence
 

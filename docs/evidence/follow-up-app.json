@@ -1,0 +1,12 @@
+{
+  "sourceCommit": "8cc038d94de9303783e248fbbbbe925781e5460c",
+  "bundle": "s7r.app",
+  "version": "0.1",
+  "configuration": "Debug",
+  "buildExecutableSHA256": "ca9236308ca0be4f07d86d9fbc8898e75432a2430098956e1337e46d48bc9eef",
+  "signedExecutableSHA256": "e33ff9b52513a1c82f9e4204e0e04a8cfe2bd357542cafcc3ca61f6b41e01db1",
+  "packagingScriptExitCode": 0,
+  "signatureVerifiedByPackagingScript": true,
+  "note": "The packaging script copies the Debug executable before signing. Signing changes the executable bytes.",
+  "guiExecution": "not performed: Mac locked"
+}
