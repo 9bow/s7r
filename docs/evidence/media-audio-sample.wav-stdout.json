@@ -1,0 +1,16 @@
+{
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/audio sample.wav",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/formats/audio sample.json",
+        "/Users/reserve/Workspace/s7r/.validation/formats/audio sample.srt"
+      ],
+      "seconds" : 1.7053909301757812,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ]
+}

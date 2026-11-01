@@ -1,0 +1,22 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+  000000000000000000000001 = {isa = PBXProject; buildConfigurationList = 000000000000000000000002; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en, Base); mainGroup = 000000000000000000000003; productRefGroup = 000000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (000000000000000000000005); };
+  000000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000006); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+  000000000000000000000003 = {isa = PBXGroup; children = (000000000000000000000007,000000000000000000000004); sourceTree = "<group>"; };
+  000000000000000000000004 = {isa = PBXGroup; children = (000000000000000000000008); name = Products; sourceTree = "<group>"; };
+  000000000000000000000005 = {isa = PBXNativeTarget; buildConfigurationList = 000000000000000000000009; buildPhases = (000000000000000000000010,000000000000000000000011); buildRules = (); dependencies = (); name = FinderDrop; productName = FinderDrop; productReference = 000000000000000000000008; productType = "com.apple.product-type.bundle.ui-testing"; };
+  000000000000000000000006 = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = macosx; ARCHS = arm64; ONLY_ACTIVE_ARCH = YES; ALWAYS_SEARCH_USER_PATHS = NO; MACOSX_DEPLOYMENT_TARGET = 26.0; }; name = Debug; };
+  000000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderDropTests.swift; sourceTree = "<group>"; };
+  000000000000000000000008 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FinderDrop.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+  000000000000000000000009 = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000012); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+  000000000000000000000010 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000013); runOnlyForDeploymentPostprocessing = 0; };
+  000000000000000000000011 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  000000000000000000000012 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_BUNDLE_IDENTIFIER = "kr.s7r.finder-tests"; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; SWIFT_VERSION = 5.0; ENABLE_APP_SANDBOX = NO; }; name = Debug; };
+  000000000000000000000013 = {isa = PBXBuildFile; fileRef = 000000000000000000000007; };
+ };
+ rootObject = 000000000000000000000001;
+}

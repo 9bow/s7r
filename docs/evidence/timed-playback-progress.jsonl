@@ -1,0 +1,18 @@
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","fraction":0,"message":"","state":"inspecting"}
+{"state":"decoding","fraction":0.005907692307692307,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","message":""}
+{"state":"decoding","fraction":0.02835793269230769,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","message":""}
+{"state":"decoding","fraction":0.05141322115384615,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","message":""}
+{"state":"decoding","fraction":0.07446850961538462,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","message":""}
+{"fraction":0.15,"message":"Loading nemotron; keyword hints: 0","state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","fraction":0.21718038027530595,"message":"","state":"transcribing"}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","state":"transcribing","fraction":0.28436076055061194}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","message":"","state":"transcribing","fraction":0.3515411408259179}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","state":"transcribing","fraction":0.41872152110122385,"message":""}
+{"state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","message":"","fraction":0.4859019013765299}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","state":"transcribing","fraction":0.5530822816518358,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","state":"transcribing","fraction":0.6202626619271417,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","state":"transcribing","fraction":0.6874430422024478,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","state":"translating","message":"s000001","fraction":0.7}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","state":"translating","message":"s000002","fraction":0.825}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","state":"exporting","message":"","fraction":0.95}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/timed playback.mp4","state":"succeeded","message":"","fraction":1}

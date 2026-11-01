@@ -1,0 +1,2 @@
+{"state":"inspecting","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/no audio.mov","fraction":0,"message":""}
+{"message":"The file has no readable audio track.","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/no audio.mov","state":"failed","fraction":1}

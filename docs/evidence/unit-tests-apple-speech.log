@@ -1,0 +1,46 @@
+2026-11-01 20:44:09.722 swift-test[41791:92186647] Error: stepSQLStatement:toCompletionWithRetry - stepping returned unhandled result=8, DB=/Users/reserve/Library/Caches/swift-test/Cache.db
+2026-11-01 20:44:10.004 swift-test[41791:92186612] Error: stepSQLStatement:toCompletionWithRetry - stepping returned unhandled result=8, DB=/Users/reserve/Library/Caches/swift-test/Cache.db
+2026-11-01 20:44:11.366 swift-test[41791:92186612] Error: stepSQLStatement:toCompletionWithRetry - stepping returned unhandled result=8, DB=/Users/reserve/Library/Caches/swift-test/Cache.db
+2026-11-01 20:44:11.523 swift-test[41791:92186648] Error: stepSQLStatement:toCompletionWithRetry - stepping returned unhandled result=8, DB=/Users/reserve/Library/Caches/swift-test/Cache.db
+Building for debugging...
+[Computing dependencies]
+[Using on-disk description]
+warning: missing creator for mutated node: ('/Users/reserve/Workspace/s7r/.build/out/Products/Debug/mlx-swift_Cmlx.bundle/Contents/MacOS')
+[2 / 79] MLXHuggingFaceMacros
+[7 / 11] S7RApp-product
+[9 / 13] S7RApp-product
+[10 / 13] S7RApp-product
+[12 / 13] S7RApp-product
+[13 / 13] S7RApp-product
+Build complete! (4.03 sec)
+Test Suite 'All tests' started at 2026-11-01 20:44:18.289.
+Test Suite 'All tests' passed at 2026-11-01 20:44:18.291.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.003) seconds
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Test unicodeWrappingPreservesText() started.
+◇ Test configurationRoundTripKeepsCaptionBytes() started.
+◇ Test bilingualEscapingAndFailurePreservation() started.
+◇ Test collisionAndOverwrite() started.
+◇ Test translationRejectsAddedTimeOfDay() started.
+◇ Test wordsKeepOriginalFileTime() started.
+◇ Test bilingualPagesRetainBothLanguages() started.
+◇ Test batchIsolatesFailureAndCancellation() started.
+◇ Test directoryRecursionAndDuplicates() started.
+◇ Test missingModelsFailWithoutNetwork() started.
+◇ Test captionOrderingAndTimeValidation() started.
+◇ Test invalidSettings() started.
+✔ Test wordsKeepOriginalFileTime() passed after 0.006 seconds.
+✔ Test captionOrderingAndTimeValidation() passed after 0.005 seconds.
+✔ Test bilingualPagesRetainBothLanguages() passed after 0.005 seconds.
+✔ Test batchIsolatesFailureAndCancellation() passed after 0.005 seconds.
+✔ Test invalidSettings() passed after 0.005 seconds.
+✔ Test configurationRoundTripKeepsCaptionBytes() passed after 0.006 seconds.
+✔ Test bilingualEscapingAndFailurePreservation() passed after 0.006 seconds.
+✔ Test translationRejectsAddedTimeOfDay() passed after 0.007 seconds.
+✔ Test directoryRecursionAndDuplicates() passed after 0.013 seconds.
+✔ Test missingModelsFailWithoutNetwork() passed after 0.016 seconds.
+✔ Test collisionAndOverwrite() passed after 0.019 seconds.
+✔ Test unicodeWrappingPreservesText() passed after 0.021 seconds.
+✔ Test run with 12 tests in 0 suites passed after 0.021 seconds.

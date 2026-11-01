@@ -1,0 +1,14 @@
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"inspecting","message":"","fraction":0}
+{"fraction":0.015798193895066794,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"decoding"}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0.04739458168520038,"state":"decoding"}
+{"fraction":0.07748867540254868,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"decoding"}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0.10908506319268228,"state":"decoding"}
+{"fraction":0.14068145098281587,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"message":"Loading nemotron; keyword hints: 0","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"transcribing","fraction":0.15}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"transcribing","fraction":0.2586294024611349}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"transcribing","fraction":0.3672588049222698}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"transcribing","fraction":0.47588820738340476}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"transcribing","fraction":0.5845176098445396}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"transcribing","fraction":0.6931470123056745}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"exporting","fraction":0.95}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"succeeded","fraction":1}

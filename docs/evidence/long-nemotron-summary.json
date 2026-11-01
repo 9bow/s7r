@@ -1,0 +1,16 @@
+{
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/long-30min.caf",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/long-nemotron-output/long-30min.json",
+        "/Users/reserve/Workspace/s7r/.validation/long-nemotron-output/long-30min.srt"
+      ],
+      "seconds" : 130.19985401630402,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ]
+}

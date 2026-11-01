@@ -1,0 +1,16 @@
+{
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/silence.wav",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/formats/silence.json",
+        "/Users/reserve/Workspace/s7r/.validation/formats/silence.srt"
+      ],
+      "seconds" : 0.9101799726486206,
+      "state" : "succeeded",
+      "warnings" : [
+        "No speech detected."
+      ]
+    }
+  ]
+}

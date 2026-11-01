@@ -1,0 +1,207 @@
+{
+  "version": "0.1",
+  "originalBuildResourcesHidden": true,
+  "cases": {
+    "help": {
+      "exitCode": 0,
+      "seconds": 0.817
+    },
+    "status": {
+      "exitCode": 0,
+      "seconds": 0.709,
+      "result": {
+        "model.nemotron": "Nemotron 3.5 ASR 0.6B 8bit, 7279359e4481b5e9e185a318bd618e429c6d86cd, OpenMDW-1.1, 756243376 bytes, installed, /Users/reserve/Workspace/s7r/Models",
+        "model.qwen": "Qwen3-4B-Instruct-2507 4bit, 50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b, Apache-2.0, 2278969697 bytes, installed, /Users/reserve/Workspace/s7r/Models",
+        "model.whisper": "Whisper small, 0f63a7800b00dd0226abd051b906c246e1907482, MIT, 490669497 bytes, installed, /Users/reserve/Workspace/s7r/Models",
+        "speech.en": "installed",
+        "speech.ja": "installed",
+        "speech.ko": "installed",
+        "speech.zh": "installed",
+        "translation.en>ja": "supported",
+        "translation.en>ko": "supported",
+        "translation.en>zh": "supported",
+        "translation.ja>en": "supported",
+        "translation.ja>ko": "supported",
+        "translation.ja>zh": "supported",
+        "translation.ko>en": "installed",
+        "translation.ko>ja": "supported",
+        "translation.ko>zh": "supported",
+        "translation.zh>en": "supported",
+        "translation.zh>ja": "supported",
+        "translation.zh>ko": "supported"
+      }
+    },
+    "nemotron": {
+      "exitCode": 0,
+      "seconds": 1.528,
+      "result": {
+        "cancelled": false,
+        "cancelledCount": 0,
+        "exitCode": 0,
+        "failed": 0,
+        "jobs": [
+          {
+            "input": "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+            "outputs": [
+              "/Users/reserve/Workspace/s7r/.cache/release-smoke/47c75a87-0cea-4f49-9ca1-c522b693b71a/nemotron-output/한국어 예제.json",
+              "/Users/reserve/Workspace/s7r/.cache/release-smoke/47c75a87-0cea-4f49-9ca1-c522b693b71a/nemotron-output/한국어 예제.srt"
+            ],
+            "seconds": 1.5000019073486328,
+            "state": "succeeded",
+            "warnings": []
+          }
+        ],
+        "succeeded": 1
+      },
+      "transcript": {
+        "duration": 5.814149659863945,
+        "input": "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+        "language": "ko",
+        "schemaVersion": 1,
+        "segments": [
+          {
+            "end": 1.04,
+            "id": "s000001",
+            "source": "안녕하세요.",
+            "start": 0.16
+          },
+          {
+            "end": 3.3600000000000003,
+            "id": "s000002",
+            "source": "이것은 로컬 자막 테스트입니다.",
+            "start": 1.04
+          },
+          {
+            "end": 5.44,
+            "id": "s000003",
+            "source": "내일 회의는 아홉시에 시작합니다.",
+            "start": 3.3600000000000003
+          }
+        ],
+        "warnings": []
+      }
+    },
+    "whisper": {
+      "exitCode": 0,
+      "seconds": 1.418,
+      "result": {
+        "cancelled": false,
+        "cancelledCount": 0,
+        "exitCode": 0,
+        "failed": 0,
+        "jobs": [
+          {
+            "input": "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+            "outputs": [
+              "/Users/reserve/Workspace/s7r/.cache/release-smoke/47c75a87-0cea-4f49-9ca1-c522b693b71a/whisper-output/English sample.json",
+              "/Users/reserve/Workspace/s7r/.cache/release-smoke/47c75a87-0cea-4f49-9ca1-c522b693b71a/whisper-output/English sample.srt"
+            ],
+            "seconds": 1.3815860748291016,
+            "state": "succeeded",
+            "warnings": []
+          }
+        ],
+        "succeeded": 1
+      },
+      "transcript": {
+        "duration": 4.861315192743764,
+        "input": "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+        "language": "en",
+        "schemaVersion": 1,
+        "segments": [
+          {
+            "end": 2.880000114440918,
+            "id": "s000001",
+            "source": "Hello, this is a local subtitle test.",
+            "start": 0,
+            "words": [
+              {
+                "end": 0.7400000095367432,
+                "start": 0,
+                "text": " Hello,"
+              },
+              {
+                "end": 0.8799999952316284,
+                "start": 0.7400000095367432,
+                "text": " this"
+              },
+              {
+                "end": 1.0399999618530273,
+                "start": 0.8799999952316284,
+                "text": " is"
+              },
+              {
+                "end": 1.1399999856948853,
+                "start": 1.0399999618530273,
+                "text": " a"
+              },
+              {
+                "end": 1.399999976158142,
+                "start": 1.1399999856948853,
+                "text": " local"
+              },
+              {
+                "end": 2.0799999237060547,
+                "start": 1.399999976158142,
+                "text": " subtitle"
+              },
+              {
+                "end": 2.880000114440918,
+                "start": 2.0799999237060547,
+                "text": " test."
+              }
+            ]
+          },
+          {
+            "end": 4.679999828338623,
+            "id": "s000002",
+            "source": "The meeting starts at 9 tomorrow.",
+            "start": 2.880000114440918,
+            "words": [
+              {
+                "end": 2.9200000762939453,
+                "start": 2.880000114440918,
+                "text": " The"
+              },
+              {
+                "end": 3.140000104904175,
+                "start": 2.9200000762939453,
+                "text": " meeting"
+              },
+              {
+                "end": 3.5399999618530273,
+                "start": 3.140000104904175,
+                "text": " starts"
+              },
+              {
+                "end": 3.759999990463257,
+                "start": 3.5399999618530273,
+                "text": " at"
+              },
+              {
+                "end": 4,
+                "start": 3.759999990463257,
+                "text": " 9"
+              },
+              {
+                "end": 4.679999828338623,
+                "start": 4,
+                "text": " tomorrow."
+              }
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    "qwen": {
+      "exitCode": 0,
+      "seconds": 4.409,
+      "result": {
+        "source": "Hello. The meeting starts at nine tomorrow.",
+        "translation": "안녕하세요. 미팅은 내일 9시에 시작됩니다."
+      }
+    }
+  },
+  "allPassed": true
+}

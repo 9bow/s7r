@@ -1,0 +1,161 @@
+[
+  {
+    "id": "nemotron",
+    "name": "mlx-community/nemotron-3.5-asr-streaming-0.6b-8bit",
+    "revision": "7279359e4481b5e9e185a318bd618e429c6d86cd",
+    "license": "OpenMDW-1.1",
+    "downloadBytes": 756243376,
+    "files": [
+      {
+        "path": "nemotron-0.6b/config.json",
+        "url": "https://huggingface.co/mlx-community/nemotron-3.5-asr-streaming-0.6b-8bit/resolve/7279359e4481b5e9e185a318bd618e429c6d86cd/config.json",
+        "bytes": 159605,
+        "sha256": null
+      },
+      {
+        "path": "nemotron-0.6b/model.safetensors",
+        "url": "https://huggingface.co/mlx-community/nemotron-3.5-asr-streaming-0.6b-8bit/resolve/7279359e4481b5e9e185a318bd618e429c6d86cd/model.safetensors",
+        "bytes": 755598923,
+        "sha256": "a64a4da048e7d28dde4cd4ff61ce59308a63314bb5563e73e06c24aae50ea941"
+      },
+      {
+        "path": "nemotron-0.6b/tokenizer.model",
+        "url": "https://huggingface.co/mlx-community/nemotron-3.5-asr-streaming-0.6b-8bit/resolve/7279359e4481b5e9e185a318bd618e429c6d86cd/tokenizer.model",
+        "bytes": 406554,
+        "sha256": "ce3895e40806f02a26c3a225161b96ef682d6c0054bae32a245dec4258d7d291"
+      },
+      {
+        "path": "nemotron-0.6b/vocab.txt",
+        "url": "https://huggingface.co/mlx-community/nemotron-3.5-asr-streaming-0.6b-8bit/resolve/7279359e4481b5e9e185a318bd618e429c6d86cd/vocab.txt",
+        "bytes": 78294,
+        "sha256": null
+      }
+    ]
+  },
+  {
+    "id": "qwen-asr",
+    "name": "mlx-community/Qwen3-ASR-1.7B-4bit",
+    "revision": "78a389c776a5483b2d0d4ea5494e11012e0d6159",
+    "license": "Apache-2.0",
+    "downloadBytes": 1607630579,
+    "files": [
+      {
+        "path": "qwen-asr-1.7b/chat_template.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-4bit/resolve/78a389c776a5483b2d0d4ea5494e11012e0d6159/chat_template.json",
+        "bytes": 1161,
+        "sha256": null
+      },
+      {
+        "path": "qwen-asr-1.7b/config.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-4bit/resolve/78a389c776a5483b2d0d4ea5494e11012e0d6159/config.json",
+        "bytes": 7188,
+        "sha256": null
+      },
+      {
+        "path": "qwen-asr-1.7b/generation_config.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-4bit/resolve/78a389c776a5483b2d0d4ea5494e11012e0d6159/generation_config.json",
+        "bytes": 142,
+        "sha256": null
+      },
+      {
+        "path": "qwen-asr-1.7b/merges.txt",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-4bit/resolve/78a389c776a5483b2d0d4ea5494e11012e0d6159/merges.txt",
+        "bytes": 1671853,
+        "sha256": null
+      },
+      {
+        "path": "qwen-asr-1.7b/model.safetensors",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-4bit/resolve/78a389c776a5483b2d0d4ea5494e11012e0d6159/model.safetensors",
+        "bytes": 1603081617,
+        "sha256": "9848eaf7a5c1589c671b35035ac27b72e248dd0c604eacae547e7e403d29db45"
+      },
+      {
+        "path": "qwen-asr-1.7b/model.safetensors.index.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-4bit/resolve/78a389c776a5483b2d0d4ea5494e11012e0d6159/model.safetensors.index.json",
+        "bytes": 78968,
+        "sha256": null
+      },
+      {
+        "path": "qwen-asr-1.7b/preprocessor_config.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-4bit/resolve/78a389c776a5483b2d0d4ea5494e11012e0d6159/preprocessor_config.json",
+        "bytes": 330,
+        "sha256": null
+      },
+      {
+        "path": "qwen-asr-1.7b/tokenizer_config.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-4bit/resolve/78a389c776a5483b2d0d4ea5494e11012e0d6159/tokenizer_config.json",
+        "bytes": 12487,
+        "sha256": null
+      },
+      {
+        "path": "qwen-asr-1.7b/vocab.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ASR-1.7B-4bit/resolve/78a389c776a5483b2d0d4ea5494e11012e0d6159/vocab.json",
+        "bytes": 2776833,
+        "sha256": null
+      }
+    ]
+  },
+  {
+    "id": "qwen-aligner",
+    "name": "mlx-community/Qwen3-ForcedAligner-0.6B-4bit",
+    "revision": "2f652af86ae0c73fe189b9429225c908ce4bf020",
+    "license": "Apache-2.0",
+    "downloadBytes": 975854832,
+    "files": [
+      {
+        "path": "qwen-aligner-0.6b/chat_template.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit/resolve/2f652af86ae0c73fe189b9429225c908ce4bf020/chat_template.json",
+        "bytes": 1161,
+        "sha256": null
+      },
+      {
+        "path": "qwen-aligner-0.6b/config.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit/resolve/2f652af86ae0c73fe189b9429225c908ce4bf020/config.json",
+        "bytes": 6940,
+        "sha256": null
+      },
+      {
+        "path": "qwen-aligner-0.6b/generation_config.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit/resolve/2f652af86ae0c73fe189b9429225c908ce4bf020/generation_config.json",
+        "bytes": 115,
+        "sha256": null
+      },
+      {
+        "path": "qwen-aligner-0.6b/merges.txt",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit/resolve/2f652af86ae0c73fe189b9429225c908ce4bf020/merges.txt",
+        "bytes": 1671853,
+        "sha256": null
+      },
+      {
+        "path": "qwen-aligner-0.6b/model.safetensors",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit/resolve/2f652af86ae0c73fe189b9429225c908ce4bf020/model.safetensors",
+        "bytes": 971305827,
+        "sha256": "630bcfbaccf2635940bbe94ad5475fd60ee4f47259b62d36deff806d60bcf24c"
+      },
+      {
+        "path": "qwen-aligner-0.6b/model.safetensors.index.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit/resolve/2f652af86ae0c73fe189b9429225c908ce4bf020/model.safetensors.index.json",
+        "bytes": 79107,
+        "sha256": null
+      },
+      {
+        "path": "qwen-aligner-0.6b/preprocessor_config.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit/resolve/2f652af86ae0c73fe189b9429225c908ce4bf020/preprocessor_config.json",
+        "bytes": 330,
+        "sha256": null
+      },
+      {
+        "path": "qwen-aligner-0.6b/tokenizer_config.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit/resolve/2f652af86ae0c73fe189b9429225c908ce4bf020/tokenizer_config.json",
+        "bytes": 12666,
+        "sha256": null
+      },
+      {
+        "path": "qwen-aligner-0.6b/vocab.json",
+        "url": "https://huggingface.co/mlx-community/Qwen3-ForcedAligner-0.6B-4bit/resolve/2f652af86ae0c73fe189b9429225c908ce4bf020/vocab.json",
+        "bytes": 2776833,
+        "sha256": null
+      }
+    ]
+  }
+]

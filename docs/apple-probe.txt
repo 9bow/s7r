@@ -1,0 +1,28 @@
+speechAvailable=true
+speech ko-KR: ko_KR supported
+speech en-US: en_US supported
+speech ja-JP: ja_JP supported
+speech zh-CN: zh_CN supported
+speech zh-TW: zh_TW supported
+speech es-ES: es_ES supported
+translation ko>en: installed
+translation ko>ja: installed
+translation ko>zh-Hans: installed
+translation ko>zh-Hant: installed
+translation en>ko: installed
+translation en>ja: installed
+translation en>zh-Hans: installed
+translation en>zh-Hant: installed
+translation ja>ko: installed
+translation ja>en: installed
+translation ja>zh-Hans: installed
+translation ja>zh-Hant: installed
+translation zh-Hans>ko: installed
+translation zh-Hans>en: installed
+translation zh-Hans>ja: installed
+translation zh-Hans>zh-Hant: unsupported
+translation zh-Hant>ko: installed
+translation zh-Hant>en: installed
+translation zh-Hant>ja: installed
+translation zh-Hant>zh-Hans: unsupported
+translation example: 안녕하세요. 이것은 지역 자막 테스트입니다.

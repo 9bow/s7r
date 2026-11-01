@@ -1,0 +1,22 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/en/English sample.json",
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/en/English sample.srt",
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/en/English sample.txt"
+      ],
+      "seconds" : 0.4438040256500244,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 1
+}

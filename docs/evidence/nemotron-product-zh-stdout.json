@@ -1,0 +1,16 @@
+{
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/中文 sample.aiff",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/nemotron-zh/中文 sample.json",
+        "/Users/reserve/Workspace/s7r/.validation/nemotron-zh/中文 sample.srt"
+      ],
+      "seconds" : 1.010975956916809,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "jobs" : [
+    {
+      "error" : "The file has no readable audio track.",
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/no audio.mov",
+      "outputs" : [
+
+      ],
+      "seconds" : 0.014868021011352539,
+      "state" : "failed",
+      "warnings" : [
+
+      ]
+    }
+  ]
+}

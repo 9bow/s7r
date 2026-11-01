@@ -1,0 +1,22 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/silence.wav",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/silence/silence.json",
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/silence/silence.srt",
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/silence/silence.txt"
+      ],
+      "seconds" : 0.25951600074768066,
+      "state" : "succeeded",
+      "warnings" : [
+        "No speech detected."
+      ]
+    }
+  ],
+  "succeeded" : 1
+}

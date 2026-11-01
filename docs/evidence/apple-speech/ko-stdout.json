@@ -1,0 +1,22 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/ko/한국어 예제.json",
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/ko/한국어 예제.srt",
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/ko/한국어 예제.txt"
+      ],
+      "seconds" : 0.6798379421234131,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 1
+}

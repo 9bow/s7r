@@ -1,0 +1,21 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/gui-compare/English sample.json",
+        "/Users/reserve/Workspace/s7r/.validation/gui-compare/English sample.srt"
+      ],
+      "seconds" : 1.682702898979187,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 1
+}

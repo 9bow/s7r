@@ -1,0 +1,88 @@
+{
+  "nonrecursive": {
+    "cancelled": false,
+    "cancelledCount": 0,
+    "exitCode": 1,
+    "failed": 1,
+    "jobs": [
+      {
+        "input": "/Users/reserve/Workspace/s7r/.validation/input-directory/audio.wav",
+        "outputs": [
+          "/Users/reserve/Workspace/s7r/.validation/directory-output/audio.json"
+        ],
+        "seconds": 1.2083491086959839,
+        "state": "succeeded",
+        "warnings": []
+      },
+      {
+        "error": "Cannot Open",
+        "input": "/Users/reserve/Workspace/s7r/.validation/input-directory/broken.mp4",
+        "outputs": [],
+        "seconds": 0.005576968193054199,
+        "state": "failed",
+        "warnings": []
+      }
+    ],
+    "succeeded": 1
+  },
+  "recursive": {
+    "cancelled": false,
+    "cancelledCount": 0,
+    "exitCode": 1,
+    "failed": 1,
+    "jobs": [
+      {
+        "input": "/Users/reserve/Workspace/s7r/.validation/input-directory/audio.wav",
+        "outputs": [
+          "/Users/reserve/Workspace/s7r/.validation/directory-output/audio-2.json"
+        ],
+        "seconds": 0.8302879333496094,
+        "state": "succeeded",
+        "warnings": []
+      },
+      {
+        "error": "Cannot Open",
+        "input": "/Users/reserve/Workspace/s7r/.validation/input-directory/broken.mp4",
+        "outputs": [],
+        "seconds": 0.0016570091247558594,
+        "state": "failed",
+        "warnings": []
+      },
+      {
+        "input": "/Users/reserve/Workspace/s7r/.validation/input-directory/sub/video.mp4",
+        "outputs": [
+          "/Users/reserve/Workspace/s7r/.validation/directory-output/video.json"
+        ],
+        "seconds": 0.40821290016174316,
+        "state": "succeeded",
+        "warnings": []
+      }
+    ],
+    "succeeded": 2
+  },
+  "unknown-option": {
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "Unknown option: --bad-option\n"
+  },
+  "invalid-width": {
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "Line length must be 8...120. Maximum lines must be 1...6.\n"
+  },
+  "nemotron-auto": {
+    "exitCode": 2,
+    "stdout": "",
+    "stderr": "Automatic language detection requires Whisper.\n"
+  },
+  "missing-model": {
+    "exitCode": 1,
+    "stdout": "{\n  \"cancelled\" : false,\n  \"cancelledCount\" : 0,\n  \"exitCode\" : 1,\n  \"failed\" : 1,\n  \"jobs\" : [\n    {\n      \"error\" : \"Model nemotron is missing or incomplete at /Users/reserve/Workspace/s7r/.validation/missing-models. Select Install in the GUI or use `s7r install-model nemotron --accept-license`. No download started.\",\n      \"input\" : \"/Users/reserve/Workspace/s7r/.validation/media/audio sample.wav\",\n      \"outputs\" : [\n\n      ],\n      \"seconds\" : 0.003346085548400879,\n      \"state\" : \"failed\",\n      \"warnings\" : [\n\n      ]\n    }\n  ],\n  \"succeeded\" : 0\n}\n",
+    "stderr": "{\"message\":\"Model nemotron is missing or incomplete at \\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/missing-models. Select Install in the GUI or use `s7r install-model nemotron --accept-license`. No download started.\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"state\":\"failed\",\"fraction\":1}\n"
+  },
+  "apple-missing-assets": {
+    "exitCode": 1,
+    "stdout": "{\n  \"cancelled\" : false,\n  \"cancelledCount\" : 0,\n  \"exitCode\" : 1,\n  \"failed\" : 1,\n  \"jobs\" : [\n    {\n      \"error\" : \"Apple Speech assets are not installed for English. Use the GUI Install Speech button or `s7r install-speech --source en`. No download started.\",\n      \"input\" : \"/Users/reserve/Workspace/s7r/.validation/media/audio sample.wav\",\n      \"outputs\" : [\n\n      ],\n      \"seconds\" : 0.21542596817016602,\n      \"state\" : \"failed\",\n      \"warnings\" : [\n\n      ]\n    }\n  ],\n  \"succeeded\" : 0\n}\n",
+    "stderr": "{\"message\":\"\",\"state\":\"inspecting\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0}\n{\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0.015798193895066794,\"state\":\"decoding\",\"message\":\"\"}\n{\"state\":\"decoding\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0.04739458168520038,\"message\":\"\"}\n{\"state\":\"decoding\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0.07748867540254868,\"message\":\"\"}\n{\"state\":\"decoding\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0.10908506319268228,\"message\":\"\"}\n{\"state\":\"decoding\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":0.14068145098281587,\"message\":\"\"}\n{\"fraction\":0.15,\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"state\":\"transcribing\",\"message\":\"Loading apple; keyword hints: 0\"}\n{\"message\":\"Apple Speech assets are not installed for English. Use the GUI Install Speech button or `s7r install-speech --source en`. No download started.\",\"state\":\"failed\",\"input\":\"\\/Users\\/reserve\\/Workspace\\/s7r\\/.validation\\/media\\/audio sample.wav\",\"fraction\":1}\n"
+  }
+}

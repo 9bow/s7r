@@ -1,0 +1,98 @@
+[
+  {
+    "path": ".validation/media/English sample.aiff",
+    "bytes": 218480,
+    "sha256": "7e3f105e9cf376ad2f24d55e9487d077b342eac63962412c8b51b49a5416334f",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/audio sample.m4a",
+    "bytes": 21765,
+    "sha256": "663e7b6a784c0562ab4c89e4dde72a7284ef6ac5ec171b7465ba5010bea265ea",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/audio sample.mp3",
+    "bytes": 78158,
+    "sha256": "2b4430b6826436b7ae3877b44de8bee64895392db172dc41fb626f045c30ee3d",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/audio sample.wav",
+    "bytes": 432864,
+    "sha256": "f7154fde5eb381bd9b59f50df2cf62059f1f886368efea0a6c26b654666ec71f",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/broken.mp4",
+    "bytes": 13,
+    "sha256": "1e137f87a3ceaeb90c23c9383e1fb4991460419a457a456d69e151246f77e87e",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/ko.aiff",
+    "bytes": 260500,
+    "sha256": "b912771c4670c29d9fc50268e1f2410cba162687a5c426f21504fd8e3ce65337",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/no audio.mov",
+    "bytes": 1313,
+    "sha256": "502b25b5d879c90927fd833196b8dc6387fae19f5616d3c29caa54aa8e59eadf",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/offset video.mov",
+    "bytes": 30364,
+    "sha256": "8750a3917dc82bcced50e7c760faa79000288a111399920b0faa6ab1fb7c2931",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/offset video.mp4",
+    "bytes": 30120,
+    "sha256": "6f10659910705cd21f77e4fe891573db896e9bea0ab2ccf6dec54b542c3d8595",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/playback demo.mp4",
+    "bytes": 30429,
+    "sha256": "f91fb3dd72c923d534bd744ff019e06ba5c03981477e7e57d42994731c470d82",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/silence.wav",
+    "bytes": 196096,
+    "sha256": "639116bf8f3dc8910ebbb8e116f4785903a67e30a768b9452cac8e92a957319f",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/timed playback.mp4",
+    "bytes": 56471,
+    "sha256": "ad9f9319ccfd016c2ceb60bba6202bba23ca5cb26cf6b8d181a5d99a4441eb2b",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/timed silent.mov",
+    "bytes": 27552,
+    "sha256": "0261c58255aa82a1ef7d312050ce03b05dc93c83493f3efbb02fa525fdf97731",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/한국어 예제.aiff",
+    "bytes": 260500,
+    "sha256": "b912771c4670c29d9fc50268e1f2410cba162687a5c426f21504fd8e3ce65337",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/中文 sample.aiff",
+    "bytes": 220440,
+    "sha256": "77abb5d01869c76cc0216fc9d7449d7b26c58aeacd18793ae7a308774addf35a",
+    "source": "Original project fixture; see docs/media-sources.md"
+  },
+  {
+    "path": ".validation/media/日本語 sample.aiff",
+    "bytes": 259374,
+    "sha256": "50fbd294d4a05abb4132281fbadde46b959aa3c29b074298ff64aea68529bb1f",
+    "source": "Original project fixture; see docs/media-sources.md"
+  }
+]

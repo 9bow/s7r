@@ -1,0 +1,14 @@
+{"state":"inspecting","fraction":0,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3"}
+{"state":"decoding","fraction":0.015721925133689838,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","message":""}
+{"state":"decoding","fraction":0.04716577540106952,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","message":""}
+{"state":"decoding","fraction":0.07860962566844919,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","message":""}
+{"state":"decoding","fraction":0.11005347593582888,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","fraction":0.14149732620320854,"message":"","state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","fraction":0.15,"message":"Loading nemotron; keyword hints: 0","state":"transcribing"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","fraction":0.2575767222717433,"message":"","state":"transcribing"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","fraction":0.3651534445434866,"message":"","state":"transcribing"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","fraction":0.47273016681522984,"message":"","state":"transcribing"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","fraction":0.5803068890869731,"message":"","state":"transcribing"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","fraction":0.6878836113587165,"message":"","state":"transcribing"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","fraction":0.95,"message":"","state":"exporting"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.mp3","fraction":1,"message":"","state":"succeeded"}

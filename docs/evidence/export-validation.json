@@ -1,0 +1,24 @@
+[
+  {
+    "transcript": ".validation/timed-subtitles/timed playback.json",
+    "segments": 2,
+    "srtCues": 2,
+    "samiEvents": [
+      3360,
+      6000,
+      7920
+    ],
+    "passed": true
+  },
+  {
+    "transcript": ".validation/chinese-traditional/\u4e2d\u6587 sample.json",
+    "segments": 2,
+    "srtCues": 2,
+    "samiEvents": [
+      160,
+      2880,
+      4906
+    ],
+    "passed": true
+  }
+]

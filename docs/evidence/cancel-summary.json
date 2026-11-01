@@ -1,0 +1,20 @@
+{
+  "cancelled" : true,
+  "cancelledCount" : 1,
+  "exitCode" : 130,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/long-30min.caf",
+      "outputs" : [
+
+      ],
+      "seconds" : 1.0983920097351074,
+      "state" : "cancelled",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 0
+}

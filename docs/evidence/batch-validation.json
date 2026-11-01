@@ -1,0 +1,10 @@
+{
+  "mixedBatch": {
+    "success": 2,
+    "failed": 2
+  },
+  "collisionPreserved": true,
+  "translationFailurePreservedSource": true,
+  "cancellationExitCode": 130,
+  "cancellationSeconds": 0.6574121252633631
+}

@@ -1,0 +1,90 @@
+{
+  "duration": 4.861315192743764,
+  "input": "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+  "language": "en",
+  "schemaVersion": 1,
+  "segments": [
+    {
+      "end": 2.880000114440918,
+      "id": "s000001",
+      "source": "Hello, this is a local subtitle test.",
+      "start": 0,
+      "words": [
+        {
+          "end": 0.7400000095367432,
+          "start": 0,
+          "text": " Hello,"
+        },
+        {
+          "end": 0.8799999952316284,
+          "start": 0.7400000095367432,
+          "text": " this"
+        },
+        {
+          "end": 1.0399999618530273,
+          "start": 0.8799999952316284,
+          "text": " is"
+        },
+        {
+          "end": 1.1399999856948853,
+          "start": 1.0399999618530273,
+          "text": " a"
+        },
+        {
+          "end": 1.399999976158142,
+          "start": 1.1399999856948853,
+          "text": " local"
+        },
+        {
+          "end": 2.0799999237060547,
+          "start": 1.399999976158142,
+          "text": " subtitle"
+        },
+        {
+          "end": 2.880000114440918,
+          "start": 2.0799999237060547,
+          "text": " test."
+        }
+      ]
+    },
+    {
+      "end": 4.679999828338623,
+      "id": "s000002",
+      "source": "The meeting starts at 9 tomorrow.",
+      "start": 2.880000114440918,
+      "words": [
+        {
+          "end": 2.9200000762939453,
+          "start": 2.880000114440918,
+          "text": " The"
+        },
+        {
+          "end": 3.140000104904175,
+          "start": 2.9200000762939453,
+          "text": " meeting"
+        },
+        {
+          "end": 3.5399999618530273,
+          "start": 3.140000104904175,
+          "text": " starts"
+        },
+        {
+          "end": 3.759999990463257,
+          "start": 3.5399999618530273,
+          "text": " at"
+        },
+        {
+          "end": 4,
+          "start": 3.759999990463257,
+          "text": " 9"
+        },
+        {
+          "end": 4.679999828338623,
+          "start": 4,
+          "text": " tomorrow."
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

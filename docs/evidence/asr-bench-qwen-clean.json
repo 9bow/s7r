@@ -1,0 +1,322 @@
+{
+  "engine": "qwen",
+  "loadSeconds": 4.740563988685608,
+  "records": [
+    {
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+      "language": "en",
+      "peakMLXBytes": 3376519792,
+      "seconds": 4.550826072692871,
+      "segments": [
+        {
+          "end": 0.56,
+          "start": 0,
+          "text": "Hello"
+        },
+        {
+          "end": 0.96,
+          "start": 0.72,
+          "text": "This"
+        },
+        {
+          "end": 1.12,
+          "start": 0.96,
+          "text": "is"
+        },
+        {
+          "end": 1.12,
+          "start": 1.12,
+          "text": "a"
+        },
+        {
+          "end": 1.52,
+          "start": 1.12,
+          "text": "local"
+        },
+        {
+          "end": 2.08,
+          "start": 1.52,
+          "text": "subtitle"
+        },
+        {
+          "end": 2.64,
+          "start": 2.08,
+          "text": "test"
+        },
+        {
+          "end": 2.96,
+          "start": 2.88,
+          "text": "The"
+        },
+        {
+          "end": 3.28,
+          "start": 2.96,
+          "text": "meeting"
+        },
+        {
+          "end": 3.68,
+          "start": 3.28,
+          "text": "starts"
+        },
+        {
+          "end": 3.84,
+          "start": 3.68,
+          "text": "at"
+        },
+        {
+          "end": 4.08,
+          "start": 3.84,
+          "text": "9"
+        },
+        {
+          "end": 4.64,
+          "start": 4.08,
+          "text": "tomorrow"
+        }
+      ],
+      "text": "Hello. This is a local subtitle test. The meeting starts at 9 tomorrow."
+    },
+    {
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+      "language": "ko",
+      "peakMLXBytes": 3384989284,
+      "seconds": 2.4157190322875977,
+      "segments": [
+        {
+          "end": 0.8,
+          "start": 0,
+          "text": "안녕하세요"
+        },
+        {
+          "end": 1.6,
+          "start": 1.04,
+          "text": "이것은"
+        },
+        {
+          "end": 1.92,
+          "start": 1.6,
+          "text": "로컬"
+        },
+        {
+          "end": 2.24,
+          "start": 1.92,
+          "text": "자막"
+        },
+        {
+          "end": 3.2,
+          "start": 2.72,
+          "text": "테스트입니다"
+        },
+        {
+          "end": 3.76,
+          "start": 3.52,
+          "text": "내일"
+        },
+        {
+          "end": 4.16,
+          "start": 3.84,
+          "text": "회의는"
+        },
+        {
+          "end": 4.48,
+          "start": 4.24,
+          "text": "아홉"
+        },
+        {
+          "end": 4.72,
+          "start": 4.48,
+          "text": "시에"
+        },
+        {
+          "end": 5.6,
+          "start": 4.72,
+          "text": "시작합니다"
+        }
+      ],
+      "text": "안녕하세요. 이것은 로컬 자막 테스트입니다. 내일 회의는 아홉 시에 시작합니다."
+    },
+    {
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/日本語 sample.aiff",
+      "language": "ja",
+      "peakMLXBytes": 3384989284,
+      "seconds": 1.163769006729126,
+      "segments": [
+        {
+          "end": 1.36,
+          "start": 1.12,
+          "text": "こんにちはこれは"
+        },
+        {
+          "end": 1.76,
+          "start": 1.68,
+          "text": "字"
+        },
+        {
+          "end": 2.08,
+          "start": 1.76,
+          "text": "幕"
+        },
+        {
+          "end": 2.96,
+          "start": 2.64,
+          "text": "のテストです"
+        },
+        {
+          "end": 3.44,
+          "start": 3.2,
+          "text": "明"
+        },
+        {
+          "end": 3.6,
+          "start": 3.44,
+          "text": "日"
+        },
+        {
+          "end": 3.6,
+          "start": 3.6,
+          "text": "の"
+        },
+        {
+          "end": 3.84,
+          "start": 3.6,
+          "text": "会"
+        },
+        {
+          "end": 4,
+          "start": 3.84,
+          "text": "議"
+        },
+        {
+          "end": 4.56,
+          "start": 4.32,
+          "text": "は9"
+        },
+        {
+          "end": 4.56,
+          "start": 4.56,
+          "text": "時"
+        },
+        {
+          "end": 4.72,
+          "start": 4.56,
+          "text": "に"
+        },
+        {
+          "end": 4.96,
+          "start": 4.72,
+          "text": "始"
+        },
+        {
+          "end": 5.6,
+          "start": 5.28,
+          "text": "まります"
+        }
+      ],
+      "text": "こんにちは。これは字幕のテストです。明日の会議は9時に始まります。"
+    },
+    {
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/中文 sample.aiff",
+      "language": "zh",
+      "peakMLXBytes": 3384989284,
+      "seconds": 1.1903079748153687,
+      "segments": [
+        {
+          "end": 0.16,
+          "start": 0,
+          "text": "你"
+        },
+        {
+          "end": 0.56,
+          "start": 0.16,
+          "text": "好"
+        },
+        {
+          "end": 0.88,
+          "start": 0.72,
+          "text": "这"
+        },
+        {
+          "end": 1.12,
+          "start": 0.88,
+          "text": "是"
+        },
+        {
+          "end": 1.36,
+          "start": 1.12,
+          "text": "本"
+        },
+        {
+          "end": 1.52,
+          "start": 1.36,
+          "text": "地"
+        },
+        {
+          "end": 1.76,
+          "start": 1.52,
+          "text": "字"
+        },
+        {
+          "end": 1.92,
+          "start": 1.76,
+          "text": "幕"
+        },
+        {
+          "end": 2.16,
+          "start": 1.92,
+          "text": "测"
+        },
+        {
+          "end": 2.56,
+          "start": 2.16,
+          "text": "试"
+        },
+        {
+          "end": 2.88,
+          "start": 2.64,
+          "text": "明"
+        },
+        {
+          "end": 3.12,
+          "start": 2.88,
+          "text": "天"
+        },
+        {
+          "end": 3.2,
+          "start": 3.12,
+          "text": "的"
+        },
+        {
+          "end": 3.44,
+          "start": 3.2,
+          "text": "会"
+        },
+        {
+          "end": 3.6,
+          "start": 3.44,
+          "text": "议"
+        },
+        {
+          "end": 3.84,
+          "start": 3.6,
+          "text": "九"
+        },
+        {
+          "end": 4.08,
+          "start": 3.84,
+          "text": "点"
+        },
+        {
+          "end": 4.24,
+          "start": 4.08,
+          "text": "开"
+        },
+        {
+          "end": 4.72,
+          "start": 4.24,
+          "text": "始"
+        }
+      ],
+      "text": "你好，这是本地字幕测试。明天的会议九点开始。"
+    }
+  ]
+}

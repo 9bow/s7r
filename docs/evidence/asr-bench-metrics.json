@@ -1,0 +1,12 @@
+{
+  "nemotron": {
+    "exitCode": 0,
+    "wallSeconds": 9.74702962487936,
+    "peakRSSBytes": 445923328
+  },
+  "qwen": {
+    "exitCode": 0,
+    "wallSeconds": 14.504074916243553,
+    "peakRSSBytes": 868204544
+  }
+}

@@ -1,0 +1,15 @@
+.build/
+.cache/
+Models/
+.validation/
+.DS_Store
+
+s7r.app/
+Output/
+
+dist/
+__pycache__/
+*.pyc
+xcuserdata/
+
+*.xcresult/

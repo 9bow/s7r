@@ -1,0 +1,16 @@
+{
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/offset video.mp4",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/formats/offset video.json",
+        "/Users/reserve/Workspace/s7r/.validation/formats/offset video.srt"
+      ],
+      "seconds" : 1.266158938407898,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ]
+}

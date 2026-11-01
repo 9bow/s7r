@@ -1,0 +1,21 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/audio sample.mp3",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/mp3/audio sample.json",
+        "/Users/reserve/Workspace/s7r/.validation/mp3/audio sample.txt"
+      ],
+      "seconds" : 3.7676470279693604,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 1
+}

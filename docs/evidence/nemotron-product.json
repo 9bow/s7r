@@ -1,0 +1,158 @@
+{
+  "en": {
+    "exitCode": 0,
+    "seconds": 11.66997200017795,
+    "summary": {
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/nemotron-en/English sample.json",
+            "/Users/reserve/Workspace/s7r/.validation/nemotron-en/English sample.srt"
+          ],
+          "seconds": 10.23871099948883,
+          "state": "succeeded",
+          "warnings": []
+        }
+      ]
+    },
+    "transcript": {
+      "duration": 4.861315192743764,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+      "language": "en",
+      "schemaVersion": 1,
+      "segments": [
+        {
+          "end": 4.861315192743764,
+          "id": "s000001",
+          "source": "Hello, this is a local subtitle test the meeting starts at nine tomorrow.",
+          "start": 0.16
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "ko": {
+    "exitCode": 0,
+    "seconds": 3.0519739580340683,
+    "summary": {
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/nemotron-ko/한국어 예제.json",
+            "/Users/reserve/Workspace/s7r/.validation/nemotron-ko/한국어 예제.srt"
+          ],
+          "seconds": 2.8924050331115723,
+          "state": "succeeded",
+          "warnings": []
+        }
+      ]
+    },
+    "transcript": {
+      "duration": 5.814149659863945,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+      "language": "ko",
+      "schemaVersion": 1,
+      "segments": [
+        {
+          "end": 1.04,
+          "id": "s000001",
+          "source": "안녕하세요.",
+          "start": 0.16
+        },
+        {
+          "end": 3.3600000000000003,
+          "id": "s000002",
+          "source": "이것은 로컬 자막 테스트입니다.",
+          "start": 1.04
+        },
+        {
+          "end": 5.44,
+          "id": "s000003",
+          "source": "내일 회의는 아홉시에 시작합니다.",
+          "start": 3.3600000000000003
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "ja": {
+    "exitCode": 0,
+    "seconds": 1.9821439161896706,
+    "summary": {
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/日本語 sample.aiff",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/nemotron-ja/日本語 sample.json",
+            "/Users/reserve/Workspace/s7r/.validation/nemotron-ja/日本語 sample.srt"
+          ],
+          "seconds": 1.0055060386657715,
+          "state": "succeeded",
+          "warnings": []
+        }
+      ]
+    },
+    "transcript": {
+      "duration": 5.788616780045351,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/日本語 sample.aiff",
+      "language": "ja",
+      "schemaVersion": 1,
+      "segments": [
+        {
+          "end": 3.3600000000000003,
+          "id": "s000001",
+          "source": "こんにちはこれは字幕のテストです。",
+          "start": 0.4
+        },
+        {
+          "end": 5.788616780045351,
+          "id": "s000002",
+          "source": "明日の会議は九時に始まります。",
+          "start": 3.3600000000000003
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "zh": {
+    "exitCode": 0,
+    "seconds": 1.1016568327322602,
+    "summary": {
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/中文 sample.aiff",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/nemotron-zh/中文 sample.json",
+            "/Users/reserve/Workspace/s7r/.validation/nemotron-zh/中文 sample.srt"
+          ],
+          "seconds": 1.010975956916809,
+          "state": "succeeded",
+          "warnings": []
+        }
+      ]
+    },
+    "transcript": {
+      "duration": 4.905759637188209,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/中文 sample.aiff",
+      "language": "zh",
+      "schemaVersion": 1,
+      "segments": [
+        {
+          "end": 2.8800000000000003,
+          "id": "s000001",
+          "source": "你好, 这是本地字幕测试。",
+          "start": 0.16
+        },
+        {
+          "end": 4.905759637188209,
+          "id": "s000002",
+          "source": "明天的会议九点开始。",
+          "start": 2.8800000000000003
+        }
+      ],
+      "warnings": []
+    }
+  }
+}

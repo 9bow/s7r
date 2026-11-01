@@ -1,0 +1,11 @@
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","fraction":0,"state":"inspecting"}
+{"message":"","state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","fraction":4.259567387687188e-05}
+{"message":"","state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","fraction":0.020052469841930116}
+{"message":"","state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","fraction":0.04006241160565724}
+{"message":"","state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","fraction":0.06006835482529118}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","state":"decoding","fraction":0.0800782965890183,"message":""}
+{"message":"","state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","fraction":0.10008823315307822}
+{"message":"","state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","fraction":0.12009816971713809}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","state":"decoding","fraction":0.14010411293677205,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","state":"transcribing","fraction":0.15,"message":"Loading nemotron; keyword hints: 0"}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/long-30min.caf","fraction":1,"state":"cancelled"}

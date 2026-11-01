@@ -1,0 +1,12 @@
+{
+  "build": "passed",
+  "execution": "failed",
+  "xcodebuildExitCode": 65,
+  "testsExecuted": 1,
+  "failures": 1,
+  "failureLocation": "UITests/FinderDropTests.swift:16",
+  "error": "Failed to timed out while waiting for menu open notification.",
+  "firstDragReached": false,
+  "finderDragVerified": false,
+  "releaseDecision": "The user excluded further XCUITest execution and authorized release 0.1 with this limitation documented."
+}

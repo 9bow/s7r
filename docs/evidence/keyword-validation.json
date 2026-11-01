@@ -1,0 +1,17 @@
+{
+  "engine": "Whisper small",
+  "terms": [
+    "안녕하세요",
+    "로컬 자막"
+  ],
+  "before": [
+    "안녕하세여 이것은 로컬 자막 테스트 입니다.",
+    "내일회의는 9시에 시작합니다."
+  ],
+  "after": [
+    "안녕하세요 이것은 로컬 자막 테스트 입니다.",
+    "내일 회의는 9시에 시작합니다."
+  ],
+  "delivery": "Whisper decoder promptTokens; last 224 text tokens",
+  "limitation": "This single example does not establish a general accuracy improvement."
+}

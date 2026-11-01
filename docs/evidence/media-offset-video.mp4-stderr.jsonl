@@ -1,0 +1,11 @@
+{"state":"inspecting","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","message":"","fraction":0}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","fraction":0.0096,"message":"","state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","fraction":0.0384,"message":"","state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","fraction":0.06700078125,"message":"","state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","state":"decoding","fraction":0.09223124999999999,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","state":"decoding","fraction":0.12103124999999999,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","state":"decoding","fraction":0.1473609375,"message":""}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","state":"transcribing","fraction":0.15,"message":"Loading whisper; keyword hints: 0"}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","state":"transcribing","fraction":0.7000000000000001}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","state":"exporting","fraction":0.95}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mp4","state":"succeeded","fraction":1}

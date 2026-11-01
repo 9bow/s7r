@@ -1,0 +1,10 @@
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/silence.wav","state":"inspecting","message":"","fraction":0}
+{"fraction":0.025599999999999998,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/silence.wav"}
+{"fraction":0.051199999999999996,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/silence.wav"}
+{"fraction":0.0768,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/silence.wav"}
+{"fraction":0.100003125,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/silence.wav"}
+{"fraction":0.12560312499999998,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/silence.wav"}
+{"fraction":0.15,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/silence.wav"}
+{"fraction":0.15,"state":"transcribing","message":"Loading apple; keyword hints: 0","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/silence.wav"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/silence.wav","state":"exporting","fraction":0.95,"message":""}
+{"fraction":1,"state":"succeeded","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/silence.wav"}

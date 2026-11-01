@@ -1,0 +1,32 @@
+{
+  "summary": {
+    "cancelled": false,
+    "cancelledCount": 0,
+    "exitCode": 0,
+    "failed": 0,
+    "jobs": [
+      {
+        "input": "/Users/reserve/Workspace/s7r/.validation/media/silence.wav",
+        "outputs": [
+          "/Users/reserve/Workspace/s7r/.validation/nemotron-silence/silence.json"
+        ],
+        "seconds": 4.91327702999115,
+        "state": "succeeded",
+        "warnings": [
+          "No speech detected."
+        ]
+      }
+    ],
+    "succeeded": 1
+  },
+  "transcript": {
+    "duration": 3,
+    "input": "/Users/reserve/Workspace/s7r/.validation/media/silence.wav",
+    "language": "en",
+    "schemaVersion": 1,
+    "segments": [],
+    "warnings": [
+      "No speech detected."
+    ]
+  }
+}

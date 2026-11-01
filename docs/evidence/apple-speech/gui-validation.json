@@ -1,0 +1,11 @@
+{
+  "guiState": "succeeded",
+  "guiSucceeded": 1,
+  "guiFailed": 0,
+  "guiInputMethod": "file dialog, not drag",
+  "guiOutput": "/Users/reserve/Workspace/s7r/Output/한국어 파일.json",
+  "segmentTextAndTimesEqualCLI": true,
+  "srtBytesEqualCLI": true,
+  "initialGUIFailure": "Apple Speech assets are not installed for Korean.",
+  "recovery": "Explicit GUI speech asset preparation, followed by installed status and a successful retry."
+}

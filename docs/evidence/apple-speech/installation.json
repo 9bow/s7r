@@ -1,0 +1,26 @@
+{
+  "ko": {
+    "exitCode": 0,
+    "seconds": 0.312,
+    "stdout": "{\n  \"installedSpeech\" : \"ko\"\n}\n",
+    "stderr": ""
+  },
+  "en": {
+    "exitCode": 0,
+    "seconds": 0.165,
+    "stdout": "{\n  \"installedSpeech\" : \"en\"\n}\n",
+    "stderr": ""
+  },
+  "ja": {
+    "exitCode": 0,
+    "seconds": 0.163,
+    "stdout": "{\n  \"installedSpeech\" : \"ja\"\n}\n",
+    "stderr": ""
+  },
+  "zh": {
+    "exitCode": 0,
+    "seconds": 0.173,
+    "stdout": "{\n  \"installedSpeech\" : \"zh\"\n}\n",
+    "stderr": ""
+  }
+}

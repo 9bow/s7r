@@ -1,0 +1,61 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 1,
+  "failed" : 2,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/audio sample.wav",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-4.json",
+        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-4.smi",
+        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-4.srt",
+        "/Users/reserve/Workspace/s7r/.validation/batch/audio sample-4.txt"
+      ],
+      "seconds" : 2.16395902633667,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    },
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/playback demo.mp4",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-4.json",
+        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-4.smi",
+        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-4.srt",
+        "/Users/reserve/Workspace/s7r/.validation/batch/playback demo-4.txt"
+      ],
+      "seconds" : 0.5149799585342407,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    },
+    {
+      "error" : "Cannot Open",
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/broken.mp4",
+      "outputs" : [
+
+      ],
+      "seconds" : 0.005300998687744141,
+      "state" : "failed",
+      "warnings" : [
+
+      ]
+    },
+    {
+      "error" : "The file has no readable audio track.",
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/no audio.mov",
+      "outputs" : [
+
+      ],
+      "seconds" : 0.0015619993209838867,
+      "state" : "failed",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 2
+}

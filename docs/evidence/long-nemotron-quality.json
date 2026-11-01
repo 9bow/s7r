@@ -1,0 +1,9 @@
+{
+  "expectedRepetitions": 300,
+  "recognizedGreetingCount": 300,
+  "recognizedMeetingCount": 300,
+  "exactNormalizedRepetitions": 300,
+  "firstStart": 3.36,
+  "lastEnd": 1803.01425,
+  "duration": 1803.01425
+}

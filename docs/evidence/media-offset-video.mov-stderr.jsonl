@@ -1,0 +1,11 @@
+{"fraction":0,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","message":"","state":"inspecting"}
+{"message":"","fraction":0.0096,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","state":"decoding"}
+{"message":"","fraction":0.0384,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","state":"decoding"}
+{"message":"","fraction":0.06700078125,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","message":"","state":"decoding","fraction":0.09223124999999999}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","message":"","state":"decoding","fraction":0.11312929687500001}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","message":"","state":"decoding","fraction":0.141929296875}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","message":"Loading whisper; keyword hints: 0","state":"transcribing","fraction":0.15}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","message":"","state":"transcribing","fraction":0.7000000000000001}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","message":"","state":"exporting","fraction":0.95}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/offset video.mov","message":"","state":"succeeded","fraction":1}

@@ -1,0 +1,22 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/timed playback.mp4",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/timed-subtitles/timed playback.json",
+        "/Users/reserve/Workspace/s7r/.validation/timed-subtitles/timed playback.smi",
+        "/Users/reserve/Workspace/s7r/.validation/timed-subtitles/timed playback.srt"
+      ],
+      "seconds" : 3.2186208963394165,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 1
+}

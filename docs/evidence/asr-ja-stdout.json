@@ -1,0 +1,18 @@
+{
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/日本語 sample.aiff",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/real-ja/日本語 sample.json",
+        "/Users/reserve/Workspace/s7r/.validation/real-ja/日本語 sample.smi",
+        "/Users/reserve/Workspace/s7r/.validation/real-ja/日本語 sample.srt",
+        "/Users/reserve/Workspace/s7r/.validation/real-ja/日本語 sample.txt"
+      ],
+      "seconds" : 1.3844410181045532,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.cache/release-smoke/47c75a87-0cea-4f49-9ca1-c522b693b71a/whisper-output/English sample.json",
+        "/Users/reserve/Workspace/s7r/.cache/release-smoke/47c75a87-0cea-4f49-9ca1-c522b693b71a/whisper-output/English sample.srt"
+      ],
+      "seconds" : 1.3815860748291016,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 1
+}

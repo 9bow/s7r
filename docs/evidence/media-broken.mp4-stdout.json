@@ -1,0 +1,16 @@
+{
+  "jobs" : [
+    {
+      "error" : "Cannot Open",
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/broken.mp4",
+      "outputs" : [
+
+      ],
+      "seconds" : 0.015125036239624023,
+      "state" : "failed",
+      "warnings" : [
+
+      ]
+    }
+  ]
+}

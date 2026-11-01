@@ -1,0 +1,15 @@
+{
+  "appleSpeechLanguagesExecuted": [
+    "ko",
+    "en",
+    "ja",
+    "zh"
+  ],
+  "appleSpeechGUIKoreanSucceeded": true,
+  "appleSpeechGUICLIParity": true,
+  "coreTestsPassed": 12,
+  "finderNativeTestBuild": "succeeded",
+  "finderNativeTestExecution": "failed before the first drag; further execution excluded from release by user",
+  "finderCUADrop": "item did not arrive; cause unresolved",
+  "productAppSignature": "valid"
+}

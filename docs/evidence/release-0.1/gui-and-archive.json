@@ -1,0 +1,14 @@
+{
+  "version": "0.1",
+  "configuration": "Release",
+  "guiEngine": "nemotron",
+  "guiInputMethod": "directory selected through file dialog",
+  "guiRecursive": false,
+  "guiSucceeded": 2,
+  "guiFailed": 0,
+  "guiCancelled": 0,
+  "archiveContainsModelWeights": false,
+  "publication": "authorized public repository with MIT source license",
+  "preflightArchiveBytes": 30961825,
+  "releaseScope": "Finder drag unverified; further XCUITest execution excluded by user"
+}

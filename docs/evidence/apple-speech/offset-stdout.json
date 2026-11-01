@@ -1,0 +1,22 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/offset video.mp4",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/offset/offset video.json",
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/offset/offset video.srt",
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/offset/offset video.txt"
+      ],
+      "seconds" : 0.3426089286804199,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 1
+}

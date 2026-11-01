@@ -1,0 +1,10 @@
+{"state":"inspecting","fraction":0,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"fraction":0.015798193895066794,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"","state":"decoding"}
+{"state":"decoding","fraction":0.04739458168520038,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"fraction":0.07899096947533397,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0.11058735726546756,"message":""}
+{"fraction":0.14218374505560114,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"","state":"decoding"}
+{"fraction":0.15,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"Loading whisper; keyword hints: 0","state":"transcribing"}
+{"message":"","state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0.7000000000000001}
+{"message":"","fraction":0.95,"state":"exporting","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"message":"","fraction":1,"state":"succeeded","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}

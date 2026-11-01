@@ -1,0 +1,22 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/日本語 sample.aiff",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/ja/日本語 sample.json",
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/ja/日本語 sample.srt",
+        "/Users/reserve/Workspace/s7r/.validation/apple-speech/ja/日本語 sample.txt"
+      ],
+      "seconds" : 0.4578150510787964,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 1
+}

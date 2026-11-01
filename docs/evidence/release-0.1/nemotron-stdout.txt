@@ -1,0 +1,21 @@
+{
+  "cancelled" : false,
+  "cancelledCount" : 0,
+  "exitCode" : 0,
+  "failed" : 0,
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.cache/release-smoke/47c75a87-0cea-4f49-9ca1-c522b693b71a/nemotron-output/한국어 예제.json",
+        "/Users/reserve/Workspace/s7r/.cache/release-smoke/47c75a87-0cea-4f49-9ca1-c522b693b71a/nemotron-output/한국어 예제.srt"
+      ],
+      "seconds" : 1.5000019073486328,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ],
+  "succeeded" : 1
+}

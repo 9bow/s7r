@@ -1,0 +1,18 @@
+{
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/中文 sample.aiff",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/real-zh/中文 sample.json",
+        "/Users/reserve/Workspace/s7r/.validation/real-zh/中文 sample.smi",
+        "/Users/reserve/Workspace/s7r/.validation/real-zh/中文 sample.srt",
+        "/Users/reserve/Workspace/s7r/.validation/real-zh/中文 sample.txt"
+      ],
+      "seconds" : 1.529873013496399,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/long-30min.caf",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/long-output/long-30min.json",
+        "/Users/reserve/Workspace/s7r/.validation/long-output/long-30min.srt"
+      ],
+      "seconds" : 350.96845293045044,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ]
+}

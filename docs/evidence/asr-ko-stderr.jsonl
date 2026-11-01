@@ -1,0 +1,11 @@
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff","state":"inspecting","fraction":0}
+{"fraction":0.013209154303365004,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"fraction":0.03962746291009501,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"fraction":0.06478967639935414,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"fraction":0.09120798500608414,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"fraction":0.11638954784246737,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"fraction":0.14280785644919736,"state":"decoding","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"message":"Loading whisper; keyword hints: 0","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff","state":"transcribing","fraction":0.15}
+{"fraction":0.7000000000000001,"state":"transcribing","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"fraction":0.95,"state":"exporting","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"fraction":1,"state":"succeeded","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}

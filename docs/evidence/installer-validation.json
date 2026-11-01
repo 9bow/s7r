@@ -1,0 +1,6 @@
+{
+  "exitCode": 0,
+  "stdout": "{\n  \"installed\" : \"nemotron\"\n}\n",
+  "progress": "{\"input\":\"nemotron\",\"state\":\"decoding\",\"fraction\":0.0002110497824710864,\"message\":\"Downloading explicitly selected model\"}\n{\"state\":\"decoding\",\"input\":\"nemotron\",\"message\":\"Downloading explicitly selected model\",\"fraction\":0.9993588730620498}\n",
+  "receiptCreated": true
+}

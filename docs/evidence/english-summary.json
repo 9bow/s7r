@@ -1,0 +1,18 @@
+{
+  "jobs" : [
+    {
+      "input" : "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+      "outputs" : [
+        "/Users/reserve/Workspace/s7r/.validation/english-final/English sample.json",
+        "/Users/reserve/Workspace/s7r/.validation/english-final/English sample.smi",
+        "/Users/reserve/Workspace/s7r/.validation/english-final/English sample.srt",
+        "/Users/reserve/Workspace/s7r/.validation/english-final/English sample.txt"
+      ],
+      "seconds" : 24.43477201461792,
+      "state" : "succeeded",
+      "warnings" : [
+
+      ]
+    }
+  ]
+}

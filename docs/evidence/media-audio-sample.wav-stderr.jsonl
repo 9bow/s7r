@@ -1,0 +1,10 @@
+{"state":"inspecting","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav","fraction":0.015798193895066794,"message":"","state":"decoding"}
+{"state":"decoding","message":"","fraction":0.04739458168520038,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"decoding","message":"","fraction":0.07748867540254868,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"decoding","message":"","fraction":0.10908506319268228,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"decoding","message":"","fraction":0.13920229879561907,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"state":"transcribing","message":"Loading whisper; keyword hints: 0","fraction":0.15,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"message":"","fraction":0.7000000000000001,"state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"message":"","fraction":0.95,"state":"exporting","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}
+{"message":"","fraction":1,"state":"succeeded","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/audio sample.wav"}

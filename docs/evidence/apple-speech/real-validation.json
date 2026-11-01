@@ -1,0 +1,842 @@
+{
+  "ko": {
+    "exitCode": 0,
+    "seconds": 0.82,
+    "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/ko/한국어 예제.json",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/ko/한국어 예제.srt",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/ko/한국어 예제.txt"
+          ],
+          "seconds": 0.6798379421234131,
+          "state": "succeeded",
+          "warnings": []
+        }
+      ],
+      "succeeded": 1
+    },
+    "transcript": {
+      "duration": 5.814149659863945,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+      "language": "ko",
+      "schemaVersion": 1,
+      "segments": [
+        {
+          "end": 1.02,
+          "id": "s000001",
+          "source": "안녕하세요.",
+          "start": 0,
+          "words": [
+            {
+              "end": 1.02,
+              "start": 0,
+              "text": "안녕하세요."
+            }
+          ]
+        },
+        {
+          "end": 3.3,
+          "id": "s000002",
+          "source": "이것은 로컬 자막 테스트입니다.",
+          "start": 1.02,
+          "words": [
+            {
+              "end": 1.5,
+              "start": 1.02,
+              "text": " 이것은"
+            },
+            {
+              "end": 1.98,
+              "start": 1.5,
+              "text": " 로컬"
+            },
+            {
+              "end": 2.34,
+              "start": 1.98,
+              "text": " 자막"
+            },
+            {
+              "end": 3.3,
+              "start": 2.34,
+              "text": " 테스트입니다."
+            }
+          ]
+        },
+        {
+          "end": 5.52,
+          "id": "s000003",
+          "source": "내일 회의는 9시에 시작합니다.",
+          "start": 3.3,
+          "words": [
+            {
+              "end": 3.9,
+              "start": 3.3,
+              "text": " 내일"
+            },
+            {
+              "end": 4.26,
+              "start": 3.9,
+              "text": " 회의는"
+            },
+            {
+              "end": 4.86,
+              "start": 4.26,
+              "text": " 9시에"
+            },
+            {
+              "end": 5.52,
+              "start": 4.86,
+              "text": " 시작합니다."
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "normalizedCharacterErrorRate": 0.0,
+    "reference": "안녕하세요. 이것은 로컬 자막 테스트입니다. 내일 회의는 아홉 시에 시작합니다."
+  },
+  "en": {
+    "exitCode": 0,
+    "seconds": 0.519,
+    "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/en/English sample.json",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/en/English sample.srt",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/en/English sample.txt"
+          ],
+          "seconds": 0.4438040256500244,
+          "state": "succeeded",
+          "warnings": []
+        }
+      ],
+      "succeeded": 1
+    },
+    "transcript": {
+      "duration": 4.861315192743764,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/English sample.aiff",
+      "language": "en",
+      "schemaVersion": 1,
+      "segments": [
+        {
+          "end": 2.94,
+          "id": "s000001",
+          "source": "Hello, this is a local subtitled test.",
+          "start": 0,
+          "words": [
+            {
+              "end": 0.6,
+              "start": 0,
+              "text": "Hello,"
+            },
+            {
+              "end": 1.08,
+              "start": 0.6,
+              "text": " this"
+            },
+            {
+              "end": 1.2,
+              "start": 1.08,
+              "text": " is"
+            },
+            {
+              "end": 1.32,
+              "start": 1.2,
+              "text": " a"
+            },
+            {
+              "end": 1.44,
+              "start": 1.32,
+              "text": " local"
+            },
+            {
+              "end": 2.28,
+              "start": 1.44,
+              "text": " subtitled"
+            },
+            {
+              "end": 2.94,
+              "start": 2.28,
+              "text": " test."
+            }
+          ]
+        },
+        {
+          "end": 4.86,
+          "id": "s000002",
+          "source": "The meeting starts at 9 tomorrow.",
+          "start": 3,
+          "words": [
+            {
+              "end": 3.12,
+              "start": 3,
+              "text": " The"
+            },
+            {
+              "end": 3.3,
+              "start": 3.12,
+              "text": " meeting"
+            },
+            {
+              "end": 3.6,
+              "start": 3.3,
+              "text": " starts"
+            },
+            {
+              "end": 3.96,
+              "start": 3.6,
+              "text": " at"
+            },
+            {
+              "end": 4.14,
+              "start": 3.96,
+              "text": " 9"
+            },
+            {
+              "end": 4.86,
+              "start": 4.14,
+              "text": " tomorrow."
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "normalizedCharacterErrorRate": 0.017857142857142856,
+    "reference": "Hello. This is a local subtitle test. The meeting starts at nine tomorrow."
+  },
+  "ja": {
+    "exitCode": 0,
+    "seconds": 0.53,
+    "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/日本語 sample.aiff",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/ja/日本語 sample.json",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/ja/日本語 sample.srt",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/ja/日本語 sample.txt"
+          ],
+          "seconds": 0.4578150510787964,
+          "state": "succeeded",
+          "warnings": []
+        }
+      ],
+      "succeeded": 1
+    },
+    "transcript": {
+      "duration": 5.788616780045351,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/日本語 sample.aiff",
+      "language": "ja",
+      "schemaVersion": 1,
+      "segments": [
+        {
+          "end": 3.06,
+          "id": "s000001",
+          "source": "こんにちは、これは字幕のテストです。",
+          "start": 0,
+          "words": [
+            {
+              "end": 0.3,
+              "start": 0,
+              "text": "こ"
+            },
+            {
+              "end": 0.48,
+              "start": 0.3,
+              "text": "ん"
+            },
+            {
+              "end": 0.54,
+              "start": 0.48,
+              "text": "に"
+            },
+            {
+              "end": 0.72,
+              "start": 0.54,
+              "text": "ち"
+            },
+            {
+              "end": 0.84,
+              "start": 0.72,
+              "text": "は"
+            },
+            {
+              "end": 1.08,
+              "start": 0.84,
+              "text": "、"
+            },
+            {
+              "end": 1.32,
+              "start": 1.08,
+              "text": "こ"
+            },
+            {
+              "end": 1.38,
+              "start": 1.32,
+              "text": "れ"
+            },
+            {
+              "end": 1.56,
+              "start": 1.38,
+              "text": "は"
+            },
+            {
+              "end": 1.98,
+              "start": 1.56,
+              "text": "字"
+            },
+            {
+              "end": 2.1,
+              "start": 1.98,
+              "text": "幕"
+            },
+            {
+              "end": 2.34,
+              "start": 2.1,
+              "text": "の"
+            },
+            {
+              "end": 2.46,
+              "start": 2.34,
+              "text": "テ"
+            },
+            {
+              "end": 2.58,
+              "start": 2.46,
+              "text": "ス"
+            },
+            {
+              "end": 2.7,
+              "start": 2.58,
+              "text": "ト"
+            },
+            {
+              "end": 2.82,
+              "start": 2.7,
+              "text": "で"
+            },
+            {
+              "end": 2.94,
+              "start": 2.82,
+              "text": "す"
+            },
+            {
+              "end": 3.06,
+              "start": 2.94,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end": 5.64,
+          "id": "s000002",
+          "source": "明日の会議は 9時に始まります。",
+          "start": 3.06,
+          "words": [
+            {
+              "end": 3.36,
+              "start": 3.06,
+              "text": "明"
+            },
+            {
+              "end": 3.48,
+              "start": 3.36,
+              "text": "日"
+            },
+            {
+              "end": 3.66,
+              "start": 3.48,
+              "text": "の"
+            },
+            {
+              "end": 3.9,
+              "start": 3.66,
+              "text": "会"
+            },
+            {
+              "end": 4.08,
+              "start": 3.9,
+              "text": "議"
+            },
+            {
+              "end": 4.2,
+              "start": 4.08,
+              "text": "は"
+            },
+            {
+              "end": 4.5,
+              "start": 4.2,
+              "text": " 9"
+            },
+            {
+              "end": 4.62,
+              "start": 4.5,
+              "text": "時"
+            },
+            {
+              "end": 4.86,
+              "start": 4.62,
+              "text": "に"
+            },
+            {
+              "end": 5.04,
+              "start": 4.86,
+              "text": "始"
+            },
+            {
+              "end": 5.16,
+              "start": 5.04,
+              "text": "ま"
+            },
+            {
+              "end": 5.28,
+              "start": 5.16,
+              "text": "り"
+            },
+            {
+              "end": 5.4,
+              "start": 5.28,
+              "text": "ま"
+            },
+            {
+              "end": 5.46,
+              "start": 5.4,
+              "text": "す"
+            },
+            {
+              "end": 5.64,
+              "start": 5.46,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "normalizedCharacterErrorRate": 0.0,
+    "reference": "こんにちは。これは字幕のテストです。明日の会議は九時に始まります。"
+  },
+  "zh": {
+    "exitCode": 0,
+    "seconds": 0.53,
+    "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/中文 sample.aiff",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/zh/中文 sample.json",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/zh/中文 sample.srt",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/zh/中文 sample.txt"
+          ],
+          "seconds": 0.4594780206680298,
+          "state": "succeeded",
+          "warnings": []
+        }
+      ],
+      "succeeded": 1
+    },
+    "transcript": {
+      "duration": 4.905759637188209,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/中文 sample.aiff",
+      "language": "zh",
+      "schemaVersion": 1,
+      "segments": [
+        {
+          "end": 4.9050625,
+          "id": "s000001",
+          "source": "你好 ，这是本地字幕测试明天的会议 9点开始。",
+          "start": 0,
+          "words": [
+            {
+              "end": 0.24,
+              "start": 0,
+              "text": "你"
+            },
+            {
+              "end": 0.42,
+              "start": 0.24,
+              "text": "好"
+            },
+            {
+              "end": 0.84,
+              "start": 0.42,
+              "text": " ，"
+            },
+            {
+              "end": 1.02,
+              "start": 0.84,
+              "text": "这"
+            },
+            {
+              "end": 1.14,
+              "start": 1.02,
+              "text": "是"
+            },
+            {
+              "end": 1.32,
+              "start": 1.14,
+              "text": "本"
+            },
+            {
+              "end": 1.56,
+              "start": 1.32,
+              "text": "地"
+            },
+            {
+              "end": 1.8,
+              "start": 1.56,
+              "text": "字"
+            },
+            {
+              "end": 1.98,
+              "start": 1.8,
+              "text": "幕"
+            },
+            {
+              "end": 2.22,
+              "start": 1.98,
+              "text": "测"
+            },
+            {
+              "end": 2.4,
+              "start": 2.22,
+              "text": "试"
+            },
+            {
+              "end": 2.94,
+              "start": 2.4,
+              "text": "明"
+            },
+            {
+              "end": 3.12,
+              "start": 2.94,
+              "text": "天"
+            },
+            {
+              "end": 3.3,
+              "start": 3.12,
+              "text": "的"
+            },
+            {
+              "end": 3.48,
+              "start": 3.3,
+              "text": "会"
+            },
+            {
+              "end": 3.66,
+              "start": 3.48,
+              "text": "议"
+            },
+            {
+              "end": 3.96,
+              "start": 3.66,
+              "text": " 9"
+            },
+            {
+              "end": 4.14,
+              "start": 3.96,
+              "text": "点"
+            },
+            {
+              "end": 4.38,
+              "start": 4.14,
+              "text": "开"
+            },
+            {
+              "end": 4.62,
+              "start": 4.38,
+              "text": "始"
+            },
+            {
+              "end": 4.9050625,
+              "start": 4.62,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    "normalizedCharacterErrorRate": 0.0,
+    "reference": "你好。这是本地字幕测试。明天的会议九点开始。"
+  },
+  "offset": {
+    "exitCode": 0,
+    "seconds": 0.419,
+    "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/offset video.mp4",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/offset/offset video.json",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/offset/offset video.srt",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/offset/offset video.txt"
+          ],
+          "seconds": 0.3426089286804199,
+          "state": "succeeded",
+          "warnings": []
+        }
+      ],
+      "succeeded": 1
+    },
+    "transcript": {
+      "duration": 8,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/offset video.mp4",
+      "language": "en",
+      "schemaVersion": 1,
+      "segments": [
+        {
+          "end": 5.82,
+          "id": "s000001",
+          "source": "Hello, this is a local subtitled test.",
+          "start": 3,
+          "words": [
+            {
+              "end": 3.9,
+              "start": 3,
+              "text": "Hello,"
+            },
+            {
+              "end": 4.02,
+              "start": 3.9,
+              "text": " this"
+            },
+            {
+              "end": 4.14,
+              "start": 4.02,
+              "text": " is"
+            },
+            {
+              "end": 4.26,
+              "start": 4.14,
+              "text": " a"
+            },
+            {
+              "end": 4.44,
+              "start": 4.26,
+              "text": " local"
+            },
+            {
+              "end": 5.28,
+              "start": 4.44,
+              "text": " subtitled"
+            },
+            {
+              "end": 5.82,
+              "start": 5.28,
+              "text": " test."
+            }
+          ]
+        },
+        {
+          "end": 7.74,
+          "id": "s000002",
+          "source": "The meeting starts at 9 tomorrow.",
+          "start": 5.88,
+          "words": [
+            {
+              "end": 6.06,
+              "start": 5.88,
+              "text": " The"
+            },
+            {
+              "end": 6.24,
+              "start": 6.06,
+              "text": " meeting"
+            },
+            {
+              "end": 6.78,
+              "start": 6.24,
+              "text": " starts"
+            },
+            {
+              "end": 6.96,
+              "start": 6.78,
+              "text": " at"
+            },
+            {
+              "end": 7.08,
+              "start": 6.96,
+              "text": " 9"
+            },
+            {
+              "end": 7.74,
+              "start": 7.08,
+              "text": " tomorrow."
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "silence": {
+    "exitCode": 0,
+    "seconds": 0.344,
+    "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/silence.wav",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/silence/silence.json",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/silence/silence.srt",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/silence/silence.txt"
+          ],
+          "seconds": 0.25951600074768066,
+          "state": "succeeded",
+          "warnings": [
+            "No speech detected."
+          ]
+        }
+      ],
+      "succeeded": 1
+    },
+    "transcript": {
+      "duration": 3,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/silence.wav",
+      "language": "en",
+      "schemaVersion": 1,
+      "segments": [],
+      "warnings": [
+        "No speech detected."
+      ]
+    }
+  },
+  "keywords": {
+    "exitCode": 0,
+    "seconds": 0.34,
+    "summary": {
+      "cancelled": false,
+      "cancelledCount": 0,
+      "exitCode": 0,
+      "failed": 0,
+      "jobs": [
+        {
+          "input": "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+          "outputs": [
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/keywords/한국어 예제.json",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/keywords/한국어 예제.srt",
+            "/Users/reserve/Workspace/s7r/.validation/apple-speech/keywords/한국어 예제.txt"
+          ],
+          "seconds": 0.2577199935913086,
+          "state": "succeeded",
+          "warnings": []
+        }
+      ],
+      "succeeded": 1
+    },
+    "transcript": {
+      "duration": 5.814149659863945,
+      "input": "/Users/reserve/Workspace/s7r/.validation/media/한국어 예제.aiff",
+      "language": "ko",
+      "schemaVersion": 1,
+      "segments": [
+        {
+          "end": 1.02,
+          "id": "s000001",
+          "source": "안녕하세요.",
+          "start": 0,
+          "words": [
+            {
+              "end": 1.02,
+              "start": 0,
+              "text": "안녕하세요."
+            }
+          ]
+        },
+        {
+          "end": 3.3,
+          "id": "s000002",
+          "source": "이것은 로컬 자막 테스트입니다.",
+          "start": 1.02,
+          "words": [
+            {
+              "end": 1.5,
+              "start": 1.02,
+              "text": " 이것은"
+            },
+            {
+              "end": 1.98,
+              "start": 1.5,
+              "text": " 로컬"
+            },
+            {
+              "end": 2.34,
+              "start": 1.98,
+              "text": " 자막"
+            },
+            {
+              "end": 3.3,
+              "start": 2.34,
+              "text": " 테스트입니다."
+            }
+          ]
+        },
+        {
+          "end": 5.52,
+          "id": "s000003",
+          "source": "내일 회의는 9시에 시작합니다.",
+          "start": 3.3,
+          "words": [
+            {
+              "end": 3.9,
+              "start": 3.3,
+              "text": " 내일"
+            },
+            {
+              "end": 4.26,
+              "start": 3.9,
+              "text": " 회의는"
+            },
+            {
+              "end": 4.86,
+              "start": 4.26,
+              "text": " 9시에"
+            },
+            {
+              "end": 5.52,
+              "start": 4.86,
+              "text": " 시작합니다."
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    }
+  },
+  "cancellation": {
+    "exitCode": 130,
+    "seconds": 0.071
+  }
+}

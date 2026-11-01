@@ -1,0 +1,29 @@
+{
+  "exitCode": 0,
+  "translationReceiptAbsent": true,
+  "traditionalScriptVerified": true,
+  "transcript": {
+    "duration": 4.905759637188209,
+    "input": "/Users/reserve/Workspace/s7r/.validation/media/中文 sample.aiff",
+    "language": "zh",
+    "schemaVersion": 1,
+    "segments": [
+      {
+        "end": 2.8800000000000003,
+        "id": "s000001",
+        "source": "你好, 这是本地字幕测试。",
+        "start": 0.16,
+        "translation": "你好, 這是本地字幕測試。"
+      },
+      {
+        "end": 4.905759637188209,
+        "id": "s000002",
+        "source": "明天的会议九点开始。",
+        "start": 2.8800000000000003,
+        "translation": "明天的會議九點開始。"
+      }
+    ],
+    "target": "zh",
+    "warnings": []
+  }
+}

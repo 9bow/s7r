@@ -1,0 +1,14 @@
+{"state":"inspecting","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0,"message":""}
+{"fraction":0.015798193895066794,"state":"decoding","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":""}
+{"state":"decoding","message":"","fraction":0.04739458168520038,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"state":"decoding","message":"","fraction":0.07748867540254868,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"message":"","fraction":0.10908506319268228,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"decoding"}
+{"message":"","fraction":0.14068145098281587,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"decoding"}
+{"message":"Loading nemotron; keyword hints: 0","fraction":0.15,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"transcribing"}
+{"fraction":0.2586294024611349,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"","state":"transcribing"}
+{"fraction":0.3672588049222698,"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"transcribing"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0.47588820738340476,"state":"transcribing","message":""}
+{"state":"transcribing","message":"","fraction":0.5845176098445396,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"message":"","state":"transcribing","fraction":0.6931470123056745,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"","fraction":0.95,"state":"exporting"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"","fraction":1,"state":"succeeded"}

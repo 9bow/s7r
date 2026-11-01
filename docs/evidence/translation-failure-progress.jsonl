@@ -1,0 +1,15 @@
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"","state":"inspecting","fraction":0}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"","state":"decoding","fraction":0.015798193895066794}
+{"message":"","state":"decoding","fraction":0.04739458168520038,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"","state":"decoding","fraction":0.07748867540254868}
+{"message":"","state":"decoding","fraction":0.10908506319268228,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"","state":"decoding","fraction":0.14068145098281587}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"Loading nemotron; keyword hints: 0","state":"transcribing","fraction":0.15}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","message":"","state":"transcribing","fraction":0.2586294024611349}
+{"state":"transcribing","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0.3672588049222698}
+{"fraction":0.47588820738340476,"message":"","state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"state":"transcribing","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0.5845176098445396}
+{"fraction":0.6931470123056745,"message":"","state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
+{"fraction":0.7,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","state":"translating","message":"s000001"}
+{"state":"exporting","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff","fraction":0.95}
+{"fraction":1,"message":"Translation is incomplete.","state":"partial","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/English sample.aiff"}
