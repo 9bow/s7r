@@ -1,0 +1,43 @@
+{
+  "version": "0.2",
+  "date": "2026-11-03",
+  "swiftTests": {
+    "core": 16,
+    "appModel": 4,
+    "allPassed": true
+  },
+  "cliOptionCases": {
+    "count": 11,
+    "allPassed": true
+  },
+  "pythonInstallerCases": {
+    "count": 2,
+    "defaultCacheRoot": true,
+    "explicitModelDirectory": true,
+    "localFixtureOnly": true,
+    "allPassed": true
+  },
+  "nativeApp": {
+    "defaultSaveBesideInputChecked": true,
+    "customOutputControlsHiddenWhenChecked": true,
+    "customOutputControlsVisibleWhenUnchecked": true,
+    "defaultModelRoot": "~/.cache/s7r",
+    "refreshIconPresent": true
+  },
+  "icon": {
+    "generator": "built-in imagegen",
+    "png": "Assets/AppIcon.png",
+    "icns": "Assets/AppIcon.icns",
+    "prompt": "Assets/AppIcon.prompt.txt",
+    "registeredInBundle": true,
+    "decodedByMacOS": true
+  },
+  "release": {
+    "optimizedBuildPassed": true,
+    "signaturePassed": true,
+    "extractedRuntimeCases": 6,
+    "allPassed": true,
+    "evidence": "validation.json"
+  },
+  "restrictedRuntimeAttempt": "Media inspection failed in the restricted execution environment. All six extracted release cases passed outside that restriction."
+}

@@ -48,7 +48,13 @@ struct ContentView: View {
                 LabelText("privacy.local").font(.caption).foregroundStyle(.secondary)
                 HStack {
                     Button { model.chooseInput() } label: { LabelText("action.add") }.accessibilityIdentifier("add-input")
-                    Button { model.inputs = []; model.results = [:]; model.events = [:] } label: { LabelText("action.clear") }
+                    Button { model.clearInputs() } label: { LabelText("action.clear") }
+                    Button { model.refreshInputs() } label: {
+                        Label { LabelText("action.refreshInputs") } icon: { Image(systemName: "arrow.clockwise") }
+                    }.labelStyle(.iconOnly)
+                        .help(Text("action.refreshInputs", bundle: .module))
+                        .disabled(model.inputFolders.isEmpty)
+                        .accessibilityIdentifier("refresh-inputs")
                 }.disabled(model.running)
                 Toggle(isOn: $model.settings.recursive) { LabelText("input.recursive") }.disabled(model.running)
                 List(selection: $model.selection) {
@@ -72,7 +78,7 @@ struct ContentView: View {
                     Button { model.start() } label: { LabelText("action.start") }.buttonStyle(.borderedProminent).disabled(model.running || model.inputs.isEmpty || model.installing).accessibilityIdentifier("start")
                     Button { model.cancel() } label: { LabelText("action.cancel") }.disabled(!model.running).accessibilityIdentifier("cancel")
                     Spacer()
-                    Button { model.openOutput() } label: { LabelText("action.openOutput") }
+                    Button { model.openOutput() } label: { LabelText("action.openOutput") }.disabled(model.outputFolder == nil)
                 }
                 if let summary = model.summary {
                     HStack {
@@ -128,8 +134,12 @@ struct ContentView: View {
                         Stepper(value: $model.settings.lineLength, in: 8...120) { HStack { LabelText("output.lineLength"); Spacer(); Text("\(model.settings.lineLength)") } }
                         Stepper(value: $model.settings.maxLines, in: 1...6) { HStack { LabelText("output.maxLines"); Spacer(); Text("\(model.settings.maxLines)") } }
                         Toggle(isOn: $model.settings.overwrite) { LabelText("output.overwrite") }
-                        Button { model.chooseDirectory(models: false) } label: { LabelText("action.outputFolder") }
-                        Text(model.settings.outputDirectory).font(.caption).textSelection(.enabled)
+                        Toggle(isOn: $model.saveBesideInput) { LabelText("output.besideInput") }
+                            .toggleStyle(.checkbox).accessibilityIdentifier("save-beside-input")
+                        if !model.saveBesideInput {
+                            Button { model.chooseDirectory(models: false) } label: { LabelText("action.outputFolder") }
+                            Text(model.settings.outputDirectory).font(.caption).textSelection(.enabled)
+                        }
                     } header: { LabelText("section.output") }
                     Section {
                         TextEditor(text: $model.keywords).font(.body).frame(height: 70).disabled(model.settings.asr == .nemotron)

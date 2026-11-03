@@ -25,8 +25,8 @@ public struct Settings: Codable, Equatable, Sendable {
     public var maxLines = 2
     public var recursive = false
     public var overwrite = false
-    public var outputDirectory: String = "./Output"
-    public var modelDirectory: String = "./Models"
+    public var outputDirectory: String = ""
+    public var modelDirectory: String = FileManager.default.homeDirectoryForCurrentUser.appendingPathComponent(".cache/s7r").path
     public var keywords: [String] = []
     public init() {}
     public func validate() throws {

@@ -1,6 +1,7 @@
 "app.title" = "s7r";
 "privacy.local" = "로컬에서 처리합니다. 미디어와 결과는 이 Mac에 보관됩니다.";
 "action.add" = "파일·폴더 추가";
+"action.refreshInputs" = "파일 목록 새로고침";
 "action.clear" = "목록 비우기";
 "input.recursive" = "하위 폴더 포함";
 "input.drop" = "오디오·영상·폴더를 여기에 놓으세요";
@@ -36,6 +37,7 @@
 "output.lineLength" = "한 줄 글자 수";
 "output.maxLines" = "자막당 최대 줄 수";
 "output.overwrite" = "기존 결과 덮어쓰기";
+"output.besideInput" = "원본 파일과 같은 폴더에 저장";
 "action.outputFolder" = "출력 폴더 선택";
 "section.keywords" = "키워드 힌트";
 "action.keywords" = "UTF-8 파일 불러오기";

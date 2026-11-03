@@ -1,6 +1,7 @@
 "app.title" = "s7r";
 "privacy.local" = "ローカルで処理します。メディアと結果はこのMacに保存されます。";
 "action.add" = "ファイル・フォルダを追加";
+"action.refreshInputs" = "ファイル一覧を更新";
 "action.clear" = "一覧を消去";
 "input.recursive" = "サブフォルダを含める";
 "input.drop" = "音声・動画・フォルダをここにドロップ";
@@ -36,6 +37,7 @@
 "output.lineLength" = "1行の文字数";
 "output.maxLines" = "字幕ごとの最大行数";
 "output.overwrite" = "既存の結果を上書き";
+"output.besideInput" = "元のファイルと同じフォルダに保存";
 "action.outputFolder" = "出力フォルダを選択";
 "section.keywords" = "認識のヒント";
 "action.keywords" = "UTF-8ファイルを読込";

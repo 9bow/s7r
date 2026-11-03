@@ -17,20 +17,56 @@ import S7RPlatform
     @Published var installProgress = 0.0
     @Published var capabilities: [String: String] = [:]
     @Published var keywords = ""
+    @Published private(set) var inputFolders: [URL] = []
+    private var customOutputDirectory: String
     private var task: Task<Void, Never>?
     private var installation: Task<Void, Never>?
     private let processor = MediaProcessor()
     init() {
         let base = Bundle.main.bundleURL.pathExtension == "app" ? Bundle.main.bundleURL.deletingLastPathComponent() : URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
-        settings.modelDirectory = base.appendingPathComponent("Models").path
-        settings.outputDirectory = base.appendingPathComponent("Output").path
+        customOutputDirectory = base.appendingPathComponent("Output").path
+    }
+    var saveBesideInput: Bool {
+        get { settings.outputDirectory.isEmpty }
+        set {
+            if newValue {
+                if !settings.outputDirectory.isEmpty { customOutputDirectory = settings.outputDirectory }
+                settings.outputDirectory = ""
+            } else { settings.outputDirectory = customOutputDirectory }
+        }
     }
     func add(_ urls: [URL]) {
+        guard !running else { return }
         do {
-            let expanded = try Inputs.expand(urls.map(\.path), recursive: settings.recursive)
+            let expanded = try Inputs.expand(urls.map(\.path), recursive: settings.recursive, allowEmpty: true)
+            for url in urls {
+                let folder = (try? url.resourceValues(forKeys: [.isDirectoryKey]).isDirectory) == true ? url : url.deletingLastPathComponent()
+                let normalized = folder.standardizedFileURL
+                if !inputFolders.contains(where: { $0.path == normalized.path }) { inputFolders.append(normalized) }
+            }
             var seen = Set(inputs.map(\.path))
             inputs += expanded.filter { seen.insert($0.path).inserted }
         } catch { message = error.localizedDescription }
+    }
+    func refreshInputs() {
+        guard !running, !inputFolders.isEmpty else { return }
+        do {
+            let folders = inputFolders.filter {
+                var isDirectory: ObjCBool = false
+                return FileManager.default.fileExists(atPath: $0.path, isDirectory: &isDirectory) && isDirectory.boolValue
+            }
+            inputs = try Inputs.expand(folders.map(\.path), recursive: settings.recursive, allowEmpty: true)
+            let paths = Set(inputs.map(\.path))
+            results = results.filter { paths.contains($0.key) }
+            events = events.filter { paths.contains($0.key) }
+            summary = nil
+            if let selection, !paths.contains(selection) { self.selection = nil; preview = "" }
+            message = ""
+        } catch { message = error.localizedDescription }
+    }
+    func clearInputs() {
+        inputs = []; inputFolders = []; results = [:]; events = [:]
+        selection = nil; preview = ""; summary = nil
     }
     func chooseInput() {
         let panel = NSOpenPanel(); panel.canChooseDirectories = true; panel.canChooseFiles = true; panel.allowsMultipleSelection = true
@@ -123,5 +159,12 @@ import S7RPlatform
         }
     }
     func cancelInstallation() { installation?.cancel() }
-    func openOutput() { NSWorkspace.shared.open(URL(fileURLWithPath: settings.outputDirectory)) }
+    var outputFolder: URL? {
+        if !saveBesideInput { return URL(fileURLWithPath: settings.outputDirectory) }
+        let input = selection.flatMap { selected in inputs.first { $0.path == selected } } ?? inputs.first
+        return input?.deletingLastPathComponent()
+    }
+    func openOutput() {
+        if let outputFolder { NSWorkspace.shared.open(outputFolder) }
+    }
 }

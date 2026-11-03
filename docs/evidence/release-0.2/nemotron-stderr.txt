@@ -1,0 +1,16 @@
+{"state":"inspecting","message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff","fraction":0}
+{"message":"","state":"decoding","fraction":0.013209154303365004,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"message":"","state":"decoding","fraction":0.03962746291009501,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"message":"","state":"decoding","fraction":0.06604577151682502,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"message":"","state":"decoding","fraction":0.09246408012355502,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"message":"","state":"decoding","fraction":0.11888238873028502,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"message":"","state":"decoding","fraction":0.145300697337015,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"message":"Loading nemotron; keyword hints: 0","state":"transcribing","fraction":0.15,"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff","fraction":0.2408240606353814,"message":"","state":"transcribing"}
+{"state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff","message":"","fraction":0.3316481212707628}
+{"fraction":0.4224721819061442,"message":"","state":"transcribing","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff","fraction":0.5132962425415256,"state":"transcribing","message":""}
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff","state":"transcribing","fraction":0.604120303176907}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff","message":"","state":"transcribing","fraction":0.6949443638122884}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff","state":"exporting","message":"","fraction":0.95}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.validation\/media\/한국어 예제.aiff","state":"succeeded","message":"","fraction":1}

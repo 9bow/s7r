@@ -1,6 +1,7 @@
 "app.title" = "s7r";
 "privacy.local" = "Local processing. Media and transcripts stay on this Mac.";
 "action.add" = "Add files or folders";
+"action.refreshInputs" = "Refresh file list";
 "action.clear" = "Clear list";
 "input.recursive" = "Include subfolders";
 "input.drop" = "Drop audio, video, or folders here";
@@ -36,6 +37,7 @@
 "output.lineLength" = "Characters per line";
 "output.maxLines" = "Lines per cue";
 "output.overwrite" = "Overwrite existing outputs";
+"output.besideInput" = "Save beside each input file";
 "action.outputFolder" = "Choose output folder";
 "section.keywords" = "Context hints";
 "action.keywords" = "Import UTF-8 file";

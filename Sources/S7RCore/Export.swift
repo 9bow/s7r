@@ -80,7 +80,9 @@ public enum Exporter {
         return Data(text.utf8)
     }
     public static func write(_ transcript: Transcript, formats: [OutputFormat], settings: Settings) throws -> [String] {
-        let directory = URL(fileURLWithPath: settings.outputDirectory).standardizedFileURL
+        let directory = settings.outputDirectory.isEmpty
+            ? URL(fileURLWithPath: transcript.input).deletingLastPathComponent().standardizedFileURL
+            : URL(fileURLWithPath: settings.outputDirectory).standardizedFileURL
         try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
         let stem = URL(fileURLWithPath: transcript.input).deletingPathExtension().lastPathComponent
         let formats = Array(Set(formats)).sorted { $0.rawValue < $1.rawValue }

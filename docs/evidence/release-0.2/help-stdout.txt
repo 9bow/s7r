@@ -1,0 +1,35 @@
+s7r: local file transcription and subtitles for Apple Silicon, macOS 26+
+
+Usage:
+  s7r transcribe [options] FILE_OR_DIRECTORY...
+  s7r status [--models PATH]
+  s7r install-model whisper|nemotron|qwen --accept-license [--models PATH]
+  s7r install-speech --source ko|en|ja|zh
+  s7r translate-text --source LANG --target LANG [--translator apple|qwen] TEXT
+
+Options:
+  --source ko|en|ja|zh|auto     Input speech language (default: ko)
+  --target ko|en|ja|zh|none     Translation target (default: none)
+  --chinese simplified|traditional
+  --asr apple|whisper|nemotron          ASR engine (default: nemotron), no fallback
+  --translator apple|qwen      Translation engine
+  --format txt,srt,smi,json    Default: TXT for audio, SRT for video
+  --display source|translated|bilingual
+  --order sourceFirst|translationFirst
+  --line-length 8...120        Characters per line (default: 42)
+  --max-lines 1...6            Total lines per cue (default: 2)
+  --output PATH               Output directory (default: beside each input file)
+  --models PATH               Model directory (default: ~/.cache/s7r)
+  --keywords TEXT             Newline-separated context hints
+  --keywords-file PATH        UTF-8 context hints, maximum 100 terms
+  --recursive | --no-recursive
+  --overwrite | --no-overwrite
+  --config PATH               Read complete Settings JSON before CLI options
+  --save-config PATH          Save the resolved configuration
+  --help                      Show this help
+  --                          End options, allow paths that start with a dash
+
+stdout: one JSON batch summary. stderr: JSON progress and errors.
+Exit codes: 0 success, 1 file/translation failure, 2 invalid arguments,
+            70 engine/setup failure, 130 cancelled.
+No model or language pack download starts during transcription.

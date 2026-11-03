@@ -1,0 +1,3 @@
+Built-in imagegen prompt:
+
+Use case: logo-brand. Asset type: production macOS app icon for s7r, a local dictation and subtitle app. Create one polished square icon, centered, at 1024x1024. A rounded-square deep indigo to teal app tile with subtle native macOS depth. A large clean white microphone sits above three crisp horizontal subtitle strokes, communicating speech turning into written captions. Bold simple silhouette readable at 16 pixels, restrained detail, balanced generous inset padding. Transparent canvas outside the rounded square. No letters, words, numbers, branding, watermark, mockup, or surrounding scene. Deliver only the icon.

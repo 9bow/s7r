@@ -61,6 +61,39 @@ import S7RPlatform
     let overwritten = try Exporter.write(transcript, formats: [.srt, .json], settings: settings)
     #expect(overwritten.map { URL(fileURLWithPath: $0).resolvingSymlinksInPath() } == first.map { URL(fileURLWithPath: $0).resolvingSymlinksInPath() })
 }
+@Test func defaultOutputFollowsEachInputDirectory() throws {
+    let root = URL(fileURLWithPath: "/tmp/s7r-sibling-\(UUID().uuidString)").standardizedFileURL
+    defer { try? FileManager.default.removeItem(at: root) }
+    let settings = Settings()
+    #expect(settings.outputDirectory.isEmpty)
+    #expect(settings.modelDirectory == FileManager.default.homeDirectoryForCurrentUser.appendingPathComponent(".cache/s7r").path)
+    let restored = try JSONDecoder().decode(Settings.self, from: JSONEncoder().encode(settings))
+    for folder in ["first", "second/nested"] {
+        let directory = root.appendingPathComponent(folder)
+        try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+        let input = directory.appendingPathComponent("sample.mp4")
+        try Data([1]).write(to: input)
+        let transcript = Transcript(input: input.path, duration: 1, language: .en, segments: [Segment(id: "s1", start: 0, end: 1, source: "hello")])
+        let output = try Exporter.write(transcript, formats: [.srt], settings: restored)
+        #expect(output == [directory.appendingPathComponent("sample.srt").path])
+        #expect(try String(contentsOfFile: output[0], encoding: .utf8).contains("hello"))
+        let repeated = try Exporter.write(transcript, formats: [.srt], settings: settings)
+        #expect(repeated == [directory.appendingPathComponent("sample-2.srt").path])
+    }
+}
+@Test func siblingOutputNeverOverwritesInput() throws {
+    let root = URL(fileURLWithPath: "/tmp/s7r-source-\(UUID().uuidString)").standardizedFileURL
+    defer { try? FileManager.default.removeItem(at: root) }
+    try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+    let input = root.appendingPathComponent("sample.txt")
+    let original = Data("original input".utf8)
+    try original.write(to: input)
+    var settings = Settings(); settings.overwrite = true
+    let transcript = Transcript(input: input.path, duration: 1, language: .en, segments: [Segment(id: "s1", start: 0, end: 1, source: "hello")])
+    let output = try Exporter.write(transcript, formats: [.txt], settings: settings)
+    #expect(output == [root.appendingPathComponent("sample-2.txt").path])
+    #expect(try Data(contentsOf: input) == original)
+}
 private struct TestProcessor: FileProcessor {
     func process(_ input: URL, settings: Settings, progress: @escaping @Sendable (ProgressEvent) -> Void) async throws -> JobResult {
         if input.lastPathComponent == "bad" { throw S7RError("fixture failure") }

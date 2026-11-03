@@ -1,0 +1,16 @@
+{"message":"","input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","state":"inspecting","fraction":0}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","message":"","fraction":0.013209154303365004,"state":"decoding"}
+{"state":"decoding","message":"","fraction":0.03962746291009501,"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","fraction":0.06478967639935414,"message":"","state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","fraction":0.09120798500608414,"message":"","state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","fraction":0.11638954784246737,"message":"","state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","fraction":0.14280785644919736,"message":"","state":"decoding"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","fraction":0.15,"message":"Loading nemotron; keyword hints: 0","state":"transcribing"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","state":"transcribing","message":"","fraction":0.2408240606353814}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","state":"transcribing","message":"","fraction":0.3316481212707628}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","state":"transcribing","message":"","fraction":0.4224721819061442}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","state":"transcribing","message":"","fraction":0.5132962425415256}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","state":"transcribing","message":"","fraction":0.604120303176907}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","state":"transcribing","message":"","fraction":0.6949443638122884}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","fraction":0.95,"message":"","state":"exporting"}
+{"input":"\/Users\/reserve\/Workspace\/s7r\/.cache\/release-smoke\/feaca925-189a-428d-b5f6-18e5f7e286c2\/inputs\/sample.aiff","fraction":1,"message":"","state":"succeeded"}

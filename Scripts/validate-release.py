@@ -2,6 +2,7 @@
 """Exercise the extracted release with the original build resources unavailable."""
 import json
 import os
+import shutil
 import subprocess
 import time
 import uuid
@@ -34,6 +35,10 @@ try:
         'whisper': ['transcribe', '--asr', 'whisper', '--source', 'auto', '--models', str(ROOT / 'Models'), '--format', 'srt,json', '--output', str(WORK / 'whisper-output'), str(ROOT / '.validation/media/English sample.aiff')],
         'qwen': ['translate-text', '--source', 'en', '--target', 'ko', '--translator', 'qwen', '--models', str(ROOT / 'Models'), 'Hello. The meeting starts at nine tomorrow.'],
     }
+    sibling_input = WORK / 'inputs/sample.aiff'
+    sibling_input.parent.mkdir()
+    shutil.copy2(ROOT / '.validation/media/한국어 예제.aiff', sibling_input)
+    cases['beside-input'] = ['transcribe', '--asr', 'nemotron', '--source', 'ko', '--models', str(ROOT / 'Models'), '--format', 'srt,json', str(sibling_input)]
     for name, arguments in cases.items():
         start = time.monotonic()
         result = subprocess.run([str(CLI), *arguments], cwd=WORK, env=environment, capture_output=True, timeout=180)
@@ -43,12 +48,14 @@ try:
         entry = {'exitCode': result.returncode, 'seconds': round(time.monotonic() - start, 3)}
         if name != 'help':
             entry['result'] = json.loads(result.stdout)
-        if name in ['nemotron', 'whisper']:
+        if name in ['nemotron', 'whisper', 'beside-input']:
             job = entry['result']['jobs'][0]
             assert job['state'] == 'succeeded'
             transcript = json.loads(Path(next(p for p in job['outputs'] if p.endswith('.json'))).read_text())
             assert transcript['segments']
             entry['transcript'] = transcript
+            if name == 'beside-input':
+                assert all(Path(p).parent == sibling_input.parent for p in job['outputs'])
         if name == 'qwen':
             assert entry['result']['translation'].strip()
         record['cases'][name] = entry

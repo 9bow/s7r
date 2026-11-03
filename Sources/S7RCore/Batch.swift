@@ -1,7 +1,7 @@
 import Foundation
 
 public enum Inputs {
-    public static func expand(_ paths: [String], recursive: Bool) throws -> [URL] {
+    public static func expand(_ paths: [String], recursive: Bool, allowEmpty: Bool = false) throws -> [URL] {
         var seen = Set<String>()
         var results: [URL] = []
         for path in paths {
@@ -19,9 +19,9 @@ public enum Inputs {
                 }
                 candidates.sort { $0.path < $1.path }
             } else { candidates = [url] }
-            for item in candidates where seen.insert(item.resolvingSymlinksInPath().path).inserted { results.append(item) }
+            for item in candidates where seen.insert(item.resolvingSymlinksInPath().path).inserted { results.append(item.standardizedFileURL) }
         }
-        guard !results.isEmpty else { throw S7RError("No input files found.") }
+        guard allowEmpty || !results.isEmpty else { throw S7RError("No input files found.") }
         return results
     }
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install explicitly selected models into this project."""
+"""Install explicitly selected models into the selected cache directory."""
 import argparse
 import hashlib
 import json
@@ -17,13 +17,14 @@ parser = argparse.ArgumentParser()
 parser.add_argument("models", nargs="+", choices=["whisper", "qwen", "nemotron", "qwen-asr", "qwen-aligner"])
 parser.add_argument("--accept-license", action="store_true", required=True)
 parser.add_argument("--catalog", default="Sources/S7RPlatform/Resources/models.json")
+parser.add_argument("--models", dest="model_directory", type=Path, default=Path.home() / ".cache" / "s7r")
 args = parser.parse_args()
 catalog = json.loads((ROOT / args.catalog).read_text())
 for model in catalog:
     if model["id"] not in args.models:
         continue
     for item in model["files"]:
-        target = ROOT / "Models" / item["path"]
+        target = args.model_directory / item["path"]
         if target.exists() and target.stat().st_size == item["bytes"]:
             if not item["sha256"] or digest_file(target) == item["sha256"]:
                 continue
@@ -38,4 +39,4 @@ for model in catalog:
             raise RuntimeError("Model integrity mismatch: " + item["path"])
         temporary.replace(target)
         print(item["path"], item["bytes"], flush=True)
-    (ROOT / "Models" / (model["id"] + ".installed.json")).write_text(json.dumps(model, indent=2))
+    (args.model_directory / (model["id"] + ".installed.json")).write_text(json.dumps(model, indent=2))

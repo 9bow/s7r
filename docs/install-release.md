@@ -1,4 +1,4 @@
-# s7r 0.1
+# s7r 0.2
 
 This archive contains the app, CLI, third-party notices, and matching source files.
 Use an Apple Silicon Mac with macOS 26 or later.
@@ -13,9 +13,15 @@ If macOS blocks the downloaded app, use the source build procedure in `source/RE
 ## App
 
 Open `s7r.app` from the extracted folder.
-Select a writable model directory and an output directory.
+Models use `~/.cache/s7r` by default, with a separate folder for each model.
+To reuse existing models, select their parent folder with the model folder selector.
+Output saves beside each input file by default.
+To select a separate output folder, clear “Save beside each input file”.
 Select a model and use the explicit installation control.
 Add a local file through the file dialog.
+Use the refresh icon above the file list to reload the added folders.
+If you add individual files, refresh reloads their parent folders.
+The “Include subfolders” checkbox controls subfolder traversal during refresh.
 Select the input language, then start processing.
 Use the file dialog for the validated input path. Finder drag remains unverified in this release.
 Read `source/docs/gui-validation.md` for the recorded UI scope and remaining limits.

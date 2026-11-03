@@ -29,6 +29,7 @@ let package = Package(
         ], resources: [.process("Resources")]),
         .executableTarget(name: "s7r", dependencies: ["S7RCore", "S7RPlatform"]),
         .executableTarget(name: "S7RApp", dependencies: ["S7RCore", "S7RPlatform"], resources: [.process("Resources")]),
-        .testTarget(name: "S7RCoreTests", dependencies: ["S7RCore", "S7RPlatform"])
+        .testTarget(name: "S7RCoreTests", dependencies: ["S7RCore", "S7RPlatform"]),
+        .testTarget(name: "S7RAppTests", dependencies: ["S7RApp"])
     ]
 )

@@ -21,9 +21,12 @@ open s7r.app
 ```
 
 On the tested Swift toolchain, executables are in `.build/out/Products/Debug`.
-The app bundle stays beside `Models` and `Output` in the project root.
-The app uses that location as its initial model and output directory.
-Use the folder selectors in the app to change either directory.
+The app bundle stays in the project root and includes a dictation icon.
+The app saves output beside each input file by default.
+Clear the “Save beside each input file” checkbox to select a separate output folder.
+Use the refresh icon above the file list to reload the added folders.
+If you add individual files, refresh reloads their parent folders.
+The “Include subfolders” checkbox controls subfolder traversal during refresh.
 
 Run automated tests:
 
@@ -59,7 +62,12 @@ Whisper small uses about 491 MB, including its tokenizer.
 Nemotron 3.5 0.6B 8-bit uses about 756 MB.
 Qwen3-4B-Instruct-2507 4-bit uses about 2.28 GB.
 Download size is not peak runtime memory.
-Models remain in `Models` unless you select another folder.
+Models use `~/.cache/s7r` by default in both the app and CLI.
+Model folders include `nemotron-0.6b`, `whisper-small`, `whisper-tokenizer`, and `qwen3-4b`.
+Use the model folder selector or `--models PATH` to select another root.
+To reuse the existing project models, select the project’s `Models` folder.
+An empty `outputDirectory` in Settings JSON saves output beside each input file.
+A nonempty value selects a separate output folder.
 See [model sources and licenses](docs/third-party/README.md).
 
 Apple manages its own assets. The CLI uses installed translation packs and never opens an installation dialog.
@@ -199,7 +207,7 @@ Read [the follow-up audit](docs/improvement-validation.md) for current fixes, re
 
 ## Release packaging
 
-`VERSION` identifies the app and archive version. The requested release tag is `0.1`.
+`VERSION` identifies the app and archive version. The current release tag is `0.2`.
 After the final acceptance tests pass, build and package the release from the project root:
 
 ```sh
@@ -212,7 +220,7 @@ The script writes an app and CLI archive plus `SHA256SUMS` under the ignored `di
 The archive includes the source files selected by Git and the third-party notices.
 Model weights, caches, test media, and generated output remain outside the archive.
 The archive guide and matching source files accompany the binaries.
-Read [the archive guide](docs/install-release.md) and [the 0.1 release notes](docs/releases/0.1.md).
+Read [the archive guide](docs/install-release.md) and [the 0.2 release notes](docs/releases/0.2.md).
 
 ## License
 

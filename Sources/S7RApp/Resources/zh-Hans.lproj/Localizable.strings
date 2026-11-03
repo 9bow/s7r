@@ -1,6 +1,7 @@
 "app.title" = "s7r";
 "privacy.local" = "本地处理。媒体和结果保留在此 Mac 上。";
 "action.add" = "添加文件或文件夹";
+"action.refreshInputs" = "刷新文件列表";
 "action.clear" = "清空列表";
 "input.recursive" = "包含子文件夹";
 "input.drop" = "在此拖放音频、视频或文件夹";
@@ -36,6 +37,7 @@
 "output.lineLength" = "每行字数";
 "output.maxLines" = "每条字幕的最大行数";
 "output.overwrite" = "覆盖现有输出";
+"output.besideInput" = "保存到原文件所在文件夹";
 "action.outputFolder" = "选择输出文件夹";
 "section.keywords" = "识别提示";
 "action.keywords" = "导入 UTF-8 文件";

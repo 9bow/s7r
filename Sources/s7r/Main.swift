@@ -24,8 +24,8 @@ Options:
   --order sourceFirst|translationFirst
   --line-length 8...120        Characters per line (default: 42)
   --max-lines 1...6            Total lines per cue (default: 2)
-  --output PATH               Output directory (default: ./Output)
-  --models PATH               Model directory (default: ./Models)
+  --output PATH               Output directory (default: beside each input file)
+  --models PATH               Model directory (default: ~/.cache/s7r)
   --keywords TEXT             Newline-separated context hints
   --keywords-file PATH        UTF-8 context hints, maximum 100 terms
   --recursive | --no-recursive
